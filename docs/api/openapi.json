@@ -1,0 +1,1424 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Return Pulse API",
+    "description": "Powers the Dhaga & Co. returns dashboard (Neha, Category Head). Built by the FDE team. All data is synthetic. Every count covers the latest twelve whole months in the data.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "operations"
+        ],
+        "summary": "Health",
+        "description": "For the deploy check and the keep-alive ping. 200 only when the data can be served.",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "The data can't be served",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthDown"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/summary": {
+      "get": {
+        "tags": [
+          "dashboard"
+        ],
+        "summary": "Summary",
+        "description": "Everything above the trend chart: headline numbers, return drivers, problem spots and locations.",
+        "operationId": "summary_api_summary_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Summary"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database unreachable or empty. `detail` is a sentence to show on screen.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorOut"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/trend": {
+      "get": {
+        "tags": [
+          "dashboard"
+        ],
+        "summary": "Trend",
+        "description": "Monthly returns for one issue: the latest twelve months against the twelve before.",
+        "operationId": "trend_api_trend_get",
+        "parameters": [
+          {
+            "name": "issue",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "An issue type, e.g. `too_small`",
+              "default": "too_small",
+              "title": "Issue"
+            },
+            "description": "An issue type, e.g. `too_small`"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Trend"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Unknown issue",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorOut"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database unreachable or empty. `detail` is a sentence to show on screen.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/returns": {
+      "get": {
+        "tags": [
+          "dashboard"
+        ],
+        "summary": "Returns",
+        "description": "The returns behind a problem spot, a city, or the unclear/failed lists. Filters combine with AND; all optional.",
+        "operationId": "returns_api_returns_get",
+        "parameters": [
+          {
+            "name": "vendor_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "examples": [
+                "V07"
+              ],
+              "title": "Vendor Id"
+            }
+          },
+          {
+            "name": "subcategory",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "examples": [
+                "Kurti"
+              ],
+              "title": "Subcategory"
+            }
+          },
+          {
+            "name": "city",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "examples": [
+                "Guwahati"
+              ],
+              "title": "City"
+            }
+          },
+          {
+            "name": "issue_type",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Includes `unclear` and `failed`",
+              "title": "Issue Type"
+            },
+            "description": "Includes `unclear` and `failed`"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReturnsPage"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Unknown issue_type",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorOut"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database unreachable or empty. `detail` is a sentence to show on screen.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/corrections": {
+      "get": {
+        "tags": [
+          "corrections"
+        ],
+        "summary": "Corrections",
+        "description": "Neha's ✓ / ✗ marks (latest per return) and the accuracy they add up to.",
+        "operationId": "corrections_api_corrections_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Corrections"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database unreachable or empty. `detail` is a sentence to show on screen.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorOut"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "corrections"
+        ],
+        "summary": "Add Correction",
+        "description": "Save one ✓ / ✗ mark. Sending the same return_id again replaces the earlier mark.",
+        "operationId": "add_correction_api_corrections_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CorrectionIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CorrectionSaved"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Marked correct but also given a corrected issue",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorOut"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No such return_id",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Body doesn't match the schema",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorOut"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database unreachable or empty. `detail` is a sentence to show on screen.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorOut"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Accuracy": {
+        "properties": {
+          "reviewed": {
+            "type": "integer",
+            "title": "Reviewed",
+            "description": "Returns Neha has marked (latest mark per return)"
+          },
+          "correct": {
+            "type": "integer",
+            "title": "Correct"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "reviewed",
+          "correct"
+        ],
+        "title": "Accuracy"
+      },
+      "CorrectionIn": {
+        "properties": {
+          "return_id": {
+            "type": "string",
+            "title": "Return Id",
+            "examples": [
+              "RT000556"
+            ]
+          },
+          "model_issue_type": {
+            "type": "string",
+            "enum": [
+              "too_small",
+              "too_large",
+              "colour_mismatch",
+              "quality",
+              "damaged",
+              "wrong_item",
+              "changed_mind",
+              "delivery_late",
+              "unclear",
+              "failed"
+            ],
+            "title": "Model Issue Type",
+            "description": "The label Neha is judging"
+          },
+          "is_correct": {
+            "type": "boolean",
+            "title": "Is Correct"
+          },
+          "corrected_issue": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "too_small",
+                  "too_large",
+                  "colour_mismatch",
+                  "quality",
+                  "damaged",
+                  "wrong_item",
+                  "changed_mind",
+                  "delivery_late",
+                  "unclear",
+                  "failed"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Corrected Issue",
+            "description": "Optional, only when is_correct is false"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "return_id",
+          "model_issue_type",
+          "is_correct"
+        ],
+        "title": "CorrectionIn"
+      },
+      "CorrectionSaved": {
+        "properties": {
+          "ok": {
+            "type": "boolean",
+            "const": true,
+            "title": "Ok"
+          },
+          "accuracy": {
+            "$ref": "#/components/schemas/Accuracy"
+          },
+          "storage": {
+            "type": "string",
+            "enum": [
+              "permanent",
+              "temporary"
+            ],
+            "title": "Storage"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "ok",
+          "accuracy",
+          "storage"
+        ],
+        "title": "CorrectionSaved"
+      },
+      "Corrections": {
+        "properties": {
+          "corrections": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Mark"
+            },
+            "type": "object",
+            "title": "Corrections",
+            "description": "Latest mark per return_id"
+          },
+          "accuracy": {
+            "$ref": "#/components/schemas/Accuracy"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "corrections",
+          "accuracy"
+        ],
+        "title": "Corrections"
+      },
+      "Driver": {
+        "properties": {
+          "issue": {
+            "type": "string",
+            "enum": [
+              "too_small",
+              "too_large",
+              "colour_mismatch",
+              "quality",
+              "damaged",
+              "wrong_item",
+              "changed_mind",
+              "delivery_late",
+              "unclear",
+              "failed"
+            ],
+            "title": "Issue",
+            "description": "Return reason. Same values as classified_returns.issue_type. `unclear` = no reason could be read; `failed` = the comment couldn't be processed."
+          },
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "examples": [
+              "Too small"
+            ]
+          },
+          "count": {
+            "type": "integer",
+            "title": "Count"
+          },
+          "share": {
+            "type": "number",
+            "title": "Share",
+            "description": "count / headline.returns (0–1)"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "issue",
+          "label",
+          "count",
+          "share"
+        ],
+        "title": "Driver"
+      },
+      "ErrorOut": {
+        "properties": {
+          "detail": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "items": {},
+                "type": "array"
+              }
+            ],
+            "title": "Detail",
+            "description": "A sentence safe to show on screen (422: a list of validation errors)"
+          }
+        },
+        "type": "object",
+        "required": [
+          "detail"
+        ],
+        "title": "ErrorOut"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "Headline": {
+        "properties": {
+          "returns": {
+            "type": "integer",
+            "title": "Returns",
+            "description": "Returns in the window",
+            "examples": [
+              3675
+            ]
+          },
+          "known_reason_before": {
+            "type": "number",
+            "title": "Known Reason Before",
+            "description": "Share with a dropdown reason other than 'Other' (0–1)",
+            "examples": [
+              0.553
+            ]
+          },
+          "known_reason_after": {
+            "type": "number",
+            "title": "Known Reason After",
+            "description": "Share whose issue_type isn't unclear or failed (0–1)",
+            "examples": [
+              0.863
+            ]
+          },
+          "other_comments": {
+            "type": "integer",
+            "title": "Other Comments",
+            "description": "Returns whose dropdown was 'Other'",
+            "examples": [
+              1643
+            ]
+          },
+          "unclear": {
+            "type": "integer",
+            "title": "Unclear"
+          },
+          "failed": {
+            "type": "integer",
+            "title": "Failed"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "returns",
+          "known_reason_before",
+          "known_reason_after",
+          "other_comments",
+          "unclear",
+          "failed"
+        ],
+        "title": "Headline"
+      },
+      "Health": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "const": "ok",
+            "title": "Status"
+          },
+          "database": {
+            "type": "string",
+            "title": "Database",
+            "examples": [
+              "Postgres db.example.com:5432/dhaga"
+            ]
+          },
+          "tables": {
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "type": "object",
+            "title": "Tables",
+            "description": "Row counts"
+          },
+          "labels_from": {
+            "type": "string",
+            "enum": [
+              "sample_stub",
+              "pipeline"
+            ],
+            "title": "Labels From"
+          },
+          "corrections_storage": {
+            "type": "string",
+            "enum": [
+              "permanent",
+              "temporary"
+            ],
+            "title": "Corrections Storage"
+          },
+          "build": {
+            "type": "string",
+            "title": "Build",
+            "description": "Deployed commit SHA, or `local`"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status",
+          "database",
+          "tables",
+          "labels_from",
+          "corrections_storage",
+          "build"
+        ],
+        "title": "Health"
+      },
+      "HealthDown": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "const": "down",
+            "title": "Status"
+          },
+          "database": {
+            "type": "string",
+            "title": "Database"
+          },
+          "error": {
+            "type": "string",
+            "title": "Error"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status",
+          "database",
+          "error"
+        ],
+        "title": "HealthDown"
+      },
+      "Hotspot": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "description": "`vendor_id|subcategory`",
+            "examples": [
+              "V07|Kurti"
+            ]
+          },
+          "vendor_id": {
+            "type": "string",
+            "title": "Vendor Id"
+          },
+          "vendor_name": {
+            "type": "string",
+            "title": "Vendor Name"
+          },
+          "subcategory": {
+            "type": "string",
+            "title": "Subcategory",
+            "description": "Product type",
+            "examples": [
+              "Kurti"
+            ]
+          },
+          "size": {
+            "type": "string",
+            "title": "Size",
+            "description": "Top one or two sizes for the top issue, or `All sizes`",
+            "examples": [
+              "L, M"
+            ]
+          },
+          "size_breakdown": {
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "type": "object",
+            "title": "Size Breakdown",
+            "description": "Returns with the top issue, by size"
+          },
+          "returns": {
+            "type": "integer",
+            "title": "Returns",
+            "description": "All returns for this vendor × product type in the window"
+          },
+          "top_issue": {
+            "type": "string",
+            "enum": [
+              "too_small",
+              "too_large",
+              "colour_mismatch",
+              "quality",
+              "damaged",
+              "wrong_item",
+              "changed_mind",
+              "delivery_late",
+              "unclear",
+              "failed"
+            ],
+            "title": "Top Issue",
+            "description": "The issue most over-represented here against baseline_share"
+          },
+          "top_issue_label": {
+            "type": "string",
+            "title": "Top Issue Label"
+          },
+          "top_issue_count": {
+            "type": "integer",
+            "title": "Top Issue Count"
+          },
+          "top_issue_share": {
+            "type": "number",
+            "title": "Top Issue Share",
+            "description": "top_issue_count / returns (0–1)"
+          },
+          "baseline_share": {
+            "type": "number",
+            "title": "Baseline Share",
+            "description": "Share of top_issue across all returns (0–1)"
+          },
+          "unclear_or_failed": {
+            "type": "integer",
+            "title": "Unclear Or Failed"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "vendor_id",
+          "vendor_name",
+          "subcategory",
+          "size",
+          "size_breakdown",
+          "returns",
+          "top_issue",
+          "top_issue_label",
+          "top_issue_count",
+          "top_issue_share",
+          "baseline_share",
+          "unclear_or_failed"
+        ],
+        "title": "Hotspot"
+      },
+      "Location": {
+        "properties": {
+          "city": {
+            "type": "string",
+            "title": "City"
+          },
+          "state": {
+            "type": "string",
+            "title": "State"
+          },
+          "returns": {
+            "type": "integer",
+            "title": "Returns"
+          },
+          "top_issue": {
+            "type": "string",
+            "enum": [
+              "too_small",
+              "too_large",
+              "colour_mismatch",
+              "quality",
+              "damaged",
+              "wrong_item",
+              "changed_mind",
+              "delivery_late",
+              "unclear",
+              "failed"
+            ],
+            "title": "Top Issue"
+          },
+          "top_issue_label": {
+            "type": "string",
+            "title": "Top Issue Label"
+          },
+          "top_issue_count": {
+            "type": "integer",
+            "title": "Top Issue Count"
+          },
+          "top_issue_share": {
+            "type": "number",
+            "title": "Top Issue Share"
+          },
+          "baseline_share": {
+            "type": "number",
+            "title": "Baseline Share"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "city",
+          "state",
+          "returns",
+          "top_issue",
+          "top_issue_label",
+          "top_issue_count",
+          "top_issue_share",
+          "baseline_share"
+        ],
+        "title": "Location"
+      },
+      "Mark": {
+        "properties": {
+          "return_id": {
+            "type": "string",
+            "title": "Return Id"
+          },
+          "model_issue_type": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model Issue Type"
+          },
+          "is_correct": {
+            "type": "boolean",
+            "title": "Is Correct"
+          },
+          "corrected_issue": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Corrected Issue"
+          },
+          "corrected_at": {
+            "type": "string",
+            "title": "Corrected At"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "return_id",
+          "model_issue_type",
+          "is_correct",
+          "corrected_issue",
+          "corrected_at"
+        ],
+        "title": "Mark"
+      },
+      "Meta": {
+        "properties": {
+          "data_mode": {
+            "type": "string",
+            "enum": [
+              "sample",
+              "live"
+            ],
+            "title": "Data Mode",
+            "description": "`sample`: 'Other' comments labelled by the keyword stand-in (pipeline hasn't run). `live`: labels come from classified_returns."
+          },
+          "synthetic": {
+            "type": "boolean",
+            "title": "Synthetic",
+            "description": "True while the database holds synthetic data. The page shows a banner."
+          },
+          "generated_at": {
+            "type": "string",
+            "title": "Generated At",
+            "description": "When these numbers were computed, ISO datetime UTC"
+          },
+          "window": {
+            "$ref": "#/components/schemas/Window",
+            "description": "The latest twelve whole months in the data. Every count in the summary covers this window."
+          },
+          "confidence_threshold": {
+            "type": "number",
+            "title": "Confidence Threshold",
+            "description": "From the settings table",
+            "examples": [
+              0.7
+            ]
+          },
+          "min_returns_per_hotspot": {
+            "type": "integer",
+            "title": "Min Returns Per Hotspot",
+            "description": "From the settings table",
+            "examples": [
+              20
+            ]
+          },
+          "classifier_note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Classifier Note",
+            "description": "Shown in the banner when set"
+          },
+          "corrections_storage": {
+            "type": "string",
+            "enum": [
+              "permanent",
+              "temporary"
+            ],
+            "title": "Corrections Storage",
+            "description": "`temporary` on SQLite: corrections are lost when the app restarts"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "data_mode",
+          "synthetic",
+          "generated_at",
+          "window",
+          "confidence_threshold",
+          "min_returns_per_hotspot",
+          "corrections_storage"
+        ],
+        "title": "Meta"
+      },
+      "ReturnRow": {
+        "properties": {
+          "return_id": {
+            "type": "string",
+            "title": "Return Id",
+            "examples": [
+              "RT000139"
+            ]
+          },
+          "return_date": {
+            "type": "string",
+            "title": "Return Date",
+            "description": "ISO date"
+          },
+          "sku": {
+            "type": "string",
+            "title": "Sku"
+          },
+          "product_name": {
+            "type": "string",
+            "title": "Product Name"
+          },
+          "subcategory": {
+            "type": "string",
+            "title": "Subcategory"
+          },
+          "department": {
+            "type": "string",
+            "title": "Department"
+          },
+          "vendor_id": {
+            "type": "string",
+            "title": "Vendor Id"
+          },
+          "vendor_name": {
+            "type": "string",
+            "title": "Vendor Name"
+          },
+          "size": {
+            "type": "string",
+            "title": "Size"
+          },
+          "city": {
+            "type": "string",
+            "title": "City"
+          },
+          "state": {
+            "type": "string",
+            "title": "State"
+          },
+          "reason_dropdown": {
+            "type": "string",
+            "title": "Reason Dropdown",
+            "description": "What the customer picked in the app, e.g. `Other`"
+          },
+          "comment": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Comment",
+            "description": "Customer's free text. Untrusted: escape before rendering. Null when the dropdown was used"
+          },
+          "issue_type": {
+            "type": "string",
+            "enum": [
+              "too_small",
+              "too_large",
+              "colour_mismatch",
+              "quality",
+              "damaged",
+              "wrong_item",
+              "changed_mind",
+              "delivery_late",
+              "unclear",
+              "failed"
+            ],
+            "title": "Issue Type",
+            "description": "Return reason. Same values as classified_returns.issue_type. `unclear` = no reason could be read; `failed` = the comment couldn't be processed."
+          },
+          "confidence": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confidence",
+            "description": "0–1. Null for gate and failed rows"
+          },
+          "evidence_phrase": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Evidence Phrase",
+            "description": "Always an exact (case-insensitive) substring of `comment`, or null"
+          },
+          "source": {
+            "type": "string",
+            "title": "Source",
+            "description": "`dropdown` | `gate` | `cheap_model` | `strong_model` from the pipeline; `sample_stub` / `sample_stub_low_conf` before it runs; `pipeline` when it skipped this row"
+          },
+          "model_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model Name"
+          },
+          "error": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Error",
+            "description": "Why it failed, shown on screen. Set only when issue_type is `failed`"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "return_id",
+          "return_date",
+          "sku",
+          "product_name",
+          "subcategory",
+          "department",
+          "vendor_id",
+          "vendor_name",
+          "size",
+          "city",
+          "state",
+          "reason_dropdown",
+          "comment",
+          "issue_type",
+          "confidence",
+          "evidence_phrase",
+          "source",
+          "model_name",
+          "error"
+        ],
+        "title": "ReturnRow"
+      },
+      "ReturnsPage": {
+        "properties": {
+          "total": {
+            "type": "integer",
+            "title": "Total"
+          },
+          "returns": {
+            "items": {
+              "$ref": "#/components/schemas/ReturnRow"
+            },
+            "type": "array",
+            "title": "Returns"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "total",
+          "returns"
+        ],
+        "title": "ReturnsPage"
+      },
+      "Summary": {
+        "properties": {
+          "meta": {
+            "$ref": "#/components/schemas/Meta"
+          },
+          "headline": {
+            "$ref": "#/components/schemas/Headline"
+          },
+          "drivers": {
+            "items": {
+              "$ref": "#/components/schemas/Driver"
+            },
+            "type": "array",
+            "title": "Drivers",
+            "description": "One row per issue type, including unclear and failed (count may be 0)"
+          },
+          "hotspots": {
+            "items": {
+              "$ref": "#/components/schemas/Hotspot"
+            },
+            "type": "array",
+            "title": "Hotspots",
+            "description": "Ranked. Vendor × product type with ≥ min_returns_per_hotspot returns, whose top issue is ≥ 5 points above baseline"
+          },
+          "locations": {
+            "items": {
+              "$ref": "#/components/schemas/Location"
+            },
+            "type": "array",
+            "title": "Locations",
+            "description": "Ranked. Cities with ≥ 40 returns whose top issue is ≥ 5 points above baseline"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "meta",
+          "headline",
+          "drivers",
+          "hotspots",
+          "locations"
+        ],
+        "title": "Summary"
+      },
+      "Trend": {
+        "properties": {
+          "issue": {
+            "type": "string",
+            "enum": [
+              "too_small",
+              "too_large",
+              "colour_mismatch",
+              "quality",
+              "damaged",
+              "wrong_item",
+              "changed_mind",
+              "delivery_late",
+              "unclear",
+              "failed"
+            ],
+            "title": "Issue"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "months": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "maxItems": 12,
+            "minItems": 12,
+            "title": "Months",
+            "examples": [
+              [
+                "Oct",
+                "Nov",
+                "Dec",
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ]
+            ]
+          },
+          "series": {
+            "items": {
+              "$ref": "#/components/schemas/TrendSeries"
+            },
+            "type": "array",
+            "maxItems": 2,
+            "minItems": 2,
+            "title": "Series"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "issue",
+          "label",
+          "months",
+          "series"
+        ],
+        "title": "Trend"
+      },
+      "TrendSeries": {
+        "properties": {
+          "key": {
+            "type": "string",
+            "enum": [
+              "last_year",
+              "this_year"
+            ],
+            "title": "Key"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "examples": [
+              "Oct 2025 – Sep 2026"
+            ]
+          },
+          "counts": {
+            "items": {
+              "type": "integer"
+            },
+            "type": "array",
+            "maxItems": 12,
+            "minItems": 12,
+            "title": "Counts",
+            "description": "Returns per month, aligned with `months`"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "key",
+          "label",
+          "counts"
+        ],
+        "title": "TrendSeries"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "Window": {
+        "properties": {
+          "from": {
+            "type": "string",
+            "title": "From",
+            "description": "First day of the window, ISO date",
+            "examples": [
+              "2025-10-01"
+            ]
+          },
+          "to": {
+            "type": "string",
+            "title": "To",
+            "description": "Last day of the window, ISO date",
+            "examples": [
+              "2026-09-30"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "examples": [
+              "Oct 2025 – Sep 2026"
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "from",
+          "to",
+          "label"
+        ],
+        "title": "Window"
+      }
+    }
+  }
+}

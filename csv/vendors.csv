@@ -1,0 +1,41 @@
+vendor_id,vendor_name,vendor_city,size_chart_version,lead_time_days_note
+V01,Sutradhar Textiles,Tiruppur,unknown,10-12 days
+V02,Kesari Fabrics,Jaipur,v1,7-10d
+V03,Noyyal Knits,Tiruppur,v2,2 weeks approx
+V04,Pink City Prints,Jaipur,v2,2 weeks approx
+V05,Amber Weaves,Tiruppur,unknown,10-12 days
+V06,Tirupur Cotton Co,Jaipur,unknown,7-10d
+V07,Rangrez Studio,Tiruppur,vendor-own,10-12 days
+V08,Kaveri Garments,Jaipur,vendor-own,
+V09,Hawa Mahal Hand Block,Tiruppur,v1,10-12 days
+V10,Shree Ganesh Knitwear,Jaipur,v1,2 weeks approx
+V11,Bandhej House,Tiruppur,v2,15 days
+V12,Neel Indigo Works,Jaipur,vendor-own,10-12 days
+V13,Sanganer Prints,Surat,vendor-own,2 weeks approx
+V14,Kongu Apparels,Jaipur,unknown,7-10d
+V15,Marudhar Crafts,Tiruppur,unknown,15 days
+V16,Velan Exports,Jaipur,vendor-own,2 weeks approx
+V17,Chunri Collective,Tiruppur,vendor-own,15 days
+V18,Avinashi Knits,Jaipur,v2,10-12 days
+V19,Jharokha Designs,Tiruppur,v2,7-10d
+V20,Palladam Fashions,Jaipur,vendor-own,ask Ramesh
+V21,Leheriya Lane,Tiruppur,v2,2 weeks approx
+V22,Kangeyam Textiles,Jaipur,v2,ask Ramesh
+V23,Gulabi Threads,Tiruppur,v1,10-12 days
+V24,Dharapuram Mills,Jaipur,vendor-own,10-12 days
+V25,Bagru Block Co,Tiruppur,v2,ask Ramesh
+V26,Udumalai Garments,Jaipur,vendor-own,ask Ramesh
+V27,Moti Mahal Fabrics,Surat,v1,7-10d
+V28,Perundurai Knits,Jaipur,vendor-own,15 days
+V29,Sitapura Apparel,Tiruppur,v1,
+V30,Kumaran Clothing,Jaipur,v1,15 days
+V31,Mandawa Weaves,Tiruppur,v2,7-10d
+V32,Vellakoil Textiles,Jaipur,vendor-own,ask Ramesh
+V33,Ajrakh Stories,Ludhiana,vendor-own,2 weeks approx
+V34,Karur Home & Wear,Jaipur,unknown,10-12 days
+V35,Pratap Nagar Prints,Tiruppur,v1,7-10d
+V36,Erode Cotton House,Jaipur,v2,ask Ramesh
+V37,Johari Bazaar Garments,Tiruppur,v1,2 weeks approx
+V38,Somanur Weaving,Jaipur,v1,
+V39,Malviya Nagar Mills,Tiruppur,v2,
+V40,Kaniyur Knits,Jaipur,unknown,ask Ramesh

@@ -1,0 +1,601 @@
+sku,product_name,department,subcategory,vendor_id,colour_raw,fabric_raw,price_inr,size_scheme,launch_date
+DH-KUR-00001,Anarkali Kurti,Womenswear,Kurti,V24,pink,linen blend,699,adult,2025-07-31
+DH-KUR-00002,Block Print Straight Kurti,Womenswear,Kurti,V11,multi-colour,poly crepe,999,adult,2026-01-30
+DH-KUR-00003,Floral A-line Kurti,Womenswear,Kurti,V36,bottle grn,mul cotton,949,adult,2025-03-14
+DH-KUR-00004,Block Print Straight Kurti,Womenswear,Kurti,V21,Dark Maroon,,749,adult,2025-09-16
+DH-KUR-00005,Mirror Work Kurti,Womenswear,Kurti,V07,Ivory,cotton blend,849,adult,2026-06-04
+DH-KUR-00006,Chikankari Kurti,Womenswear,Kurti,V09,Olive,Denim,999,adult,2025-04-11
+DH-KUR-00007,Block Print Straight Kurti,Womenswear,Kurti,V28,Gray,Chanderi (art silk),799,adult,2026-03-22
+DH-KUR-00008,Block Print Straight Kurti,Womenswear,Kurti,V06,Cherry Red,Muslin,1049,adult,2024-09-19
+DH-KUR-00009,Office Wear Kurti,Womenswear,Kurti,V28,Printed,georgette,649,adult,2026-04-04
+DH-KUR-00010,Floral A-line Kurti,Womenswear,Kurti,V17,blue,Hosiery cotton,1049,adult,2026-02-19
+DH-KUR-00011,Anarkali Kurti,Womenswear,Kurti,V18,teal blue,Cotton Blend (60/40),799,adult,2026-05-20
+DH-KUR-00012,Block Print Straight Kurti,Womenswear,Kurti,V07,red,Cambric cotton,1199,adult,2025-04-28
+DH-KUR-00013,Block Print Straight Kurti,Womenswear,Kurti,V12,multicolour,Polyester,849,adult,2026-05-18
+DH-KUR-00014,Chikankari Kurti,Womenswear,Kurti,V35,rani,Crepe,1149,adult,2026-01-27
+DH-KUR-00015,Anarkali Kurti,Womenswear,Kurti,V08,Maroon Red,Cotton,1099,adult,2025-08-08
+DH-KUR-00016,Office Wear Kurti,Womenswear,Kurti,V07,yellow,Twill cotton,649,adult,2024-10-21
+DH-KUR-00017,Chikankari Kurti,Womenswear,Kurti,V09,Sky Blue,rayon,949,adult,2024-12-11
+DH-KUR-00018,Chikankari Kurti,Womenswear,Kurti,V21,sky,cotton lycra,1199,adult,2025-10-09
+DH-KUR-00019,Office Wear Kurti,Womenswear,Kurti,V21,Mehendi Green,georgette,949,adult,2026-06-20
+DH-KUR-00020,Floral A-line Kurti,Womenswear,Kurti,V16,Ink Blue,Rayon,649,adult,2025-03-20
+DH-KUR-00021,Mirror Work Kurti,Womenswear,Kurti,V15,Grey,Rayon,649,adult,2024-08-09
+DH-KUR-00022,Block Print Straight Kurti,Womenswear,Kurti,V03,nvy,Hosiery cotton,649,adult,2025-07-06
+DH-KUR-00023,Chikankari Kurti,Womenswear,Kurti,V14,Tomato Red,Rayon,699,adult,2026-02-05
+DH-KUR-00024,Mirror Work Kurti,Womenswear,Kurti,V27,Coral,Polyester,649,adult,2025-02-12
+DH-KUR-00025,Floral A-line Kurti,Womenswear,Kurti,V27,Charcoal Black,Khadi cotton,1099,adult,2025-11-23
+DH-KUR-00026,Anarkali Kurti,Womenswear,Kurti,V07,As per image,Cambric cotton,799,adult,2024-10-03
+DH-KUR-00027,Office Wear Kurti,Womenswear,Kurti,V16,NAVY,Georgette,699,adult,2025-02-14
+DH-KUR-00028,Floral A-line Kurti,Womenswear,Kurti,V18,Blush,Muslin,749,adult,2025-11-18
+DH-KUR-00029,Chikankari Kurti,Womenswear,Kurti,V07,Blue,cotton,949,adult,2024-09-22
+DH-KUR-00030,Block Print Straight Kurti,Womenswear,Kurti,V11,Lemon,,849,adult,2025-09-22
+DH-KUR-00031,Office Wear Kurti,Womenswear,Kurti,V21,mrn,Muslin,549,adult,2025-08-25
+DH-KUR-00032,Mirror Work Kurti,Womenswear,Kurti,V19,Tomato Red,cotton blend,949,adult,2025-10-09
+DH-KUR-00033,Chikankari Kurti,Womenswear,Kurti,V07,Ochre,Cotton,1199,adult,2025-03-12
+DH-KUR-00034,Chikankari Kurti,Womenswear,Kurti,V04,WHT,Cotton Blend (60/40),899,adult,2024-09-22
+DH-KUR-00035,Floral A-line Kurti,Womenswear,Kurti,V07,Dark Maroon,cotton,1049,adult,2024-10-23
+DH-KUR-00036,Chikankari Kurti,Womenswear,Kurti,V16,multicolour,Linen look,699,adult,2025-09-19
+DH-KUR-00037,Mirror Work Kurti,Womenswear,Kurti,V03,Ash,Linen look,649,adult,2026-04-28
+DH-KUR-00038,Mirror Work Kurti,Womenswear,Kurti,V21,Teal,Rayon,699,adult,2025-04-26
+DH-KUR-00039,Anarkali Kurti,Womenswear,Kurti,V26,mint green,rayon slub,949,adult,2024-12-14
+DH-KUR-00040,Chikankari Kurti,Womenswear,Kurti,V01,navy blue,cotton,899,adult,2025-11-14
+DH-KUR-00041,Anarkali Kurti,Womenswear,Kurti,V07,blue,,749,adult,2026-01-02
+DH-KUR-00042,Chikankari Kurti,Womenswear,Kurti,V24,Haldi,linen blend,699,adult,2025-05-20
+DH-KUR-00043,Chikankari Kurti,Womenswear,Kurti,V07,Multi Color,Hosiery cotton,949,adult,2024-08-10
+DH-KUR-00044,Floral A-line Kurti,Womenswear,Kurti,V09,Ink Blue,cotton blend,649,adult,2025-04-29
+DH-KUR-00045,Anarkali Kurti,Womenswear,Kurti,V19,bottle grn,Hosiery cotton,749,adult,2026-04-13
+DH-KUR-00046,Floral A-line Kurti,Womenswear,Kurti,V12,Multi,Khadi cotton,849,adult,2026-01-01
+DH-KUR-00047,Block Print Straight Kurti,Womenswear,Kurti,V18,Charcoal Black,rayon,549,adult,2024-09-16
+DH-KUR-00048,Chikankari Kurti,Womenswear,Kurti,V12,Pink,Pure Cotton,949,adult,2026-02-17
+DH-KUR-00049,Anarkali Kurti,Womenswear,Kurti,V10,Ink Blue,cotton blend,599,adult,2026-02-11
+DH-KUR-00050,Floral A-line Kurti,Womenswear,Kurti,V09,BLACK,soft cotton feel,749,adult,2024-09-13
+DH-KUR-00051,Chikankari Kurti,Womenswear,Kurti,V16,As per image,Georgette,649,adult,2026-06-15
+DH-KUR-00052,Block Print Straight Kurti,Womenswear,Kurti,V10,Grey Melange,100% cotton,1099,adult,2025-04-01
+DH-KUR-00053,Mirror Work Kurti,Womenswear,Kurti,V22,baby pink,rayon,1049,adult,2025-09-27
+DH-KUR-00054,Office Wear Kurti,Womenswear,Kurti,V07,baby pink,soft cotton feel,1099,adult,2025-08-28
+DH-KUR-00055,Block Print Straight Kurti,Womenswear,Kurti,V07,Brick Red,100% cotton,1049,adult,2025-06-10
+DH-KUR-00056,Floral A-line Kurti,Womenswear,Kurti,V13,As per image,rayon,799,adult,2025-09-14
+DH-KUR-00057,Chikankari Kurti,Womenswear,Kurti,V33,Cream,100% cotton,949,adult,2025-09-15
+DH-KUR-00058,Anarkali Kurti,Womenswear,Kurti,V07,Navy,Pure Cotton,899,adult,2025-01-31
+DH-KUR-00059,Anarkali Kurti,Womenswear,Kurti,V28,Grey Melange,linen blend,999,adult,2025-07-21
+DH-KUR-00060,Block Print Straight Kurti,Womenswear,Kurti,V08,Powder Blue,Cotton,1099,adult,2025-08-31
+DH-KUR-00061,Chikankari Kurti,Womenswear,Kurti,V01,Charcoal Black,Denim,1149,adult,2026-01-16
+DH-KUR-00062,Mirror Work Kurti,Womenswear,Kurti,V13,Multi Color,linen blend,799,adult,2025-08-09
+DH-KUR-00063,Mirror Work Kurti,Womenswear,Kurti,V08,cream,rayon slub,849,adult,2025-06-05
+DH-KUR-00064,Office Wear Kurti,Womenswear,Kurti,V19,Charcoal Black,poly crepe,699,adult,2026-02-20
+DH-KUR-00065,Office Wear Kurti,Womenswear,Kurti,V07,Printed,mul cotton,899,adult,2026-04-24
+DH-KUR-00066,Chikankari Kurti,Womenswear,Kurti,V12,Dark Maroon,Khadi cotton,699,adult,2025-05-22
+DH-KUR-00067,Block Print Straight Kurti,Womenswear,Kurti,V30,WHT,Crepe,799,adult,2025-10-28
+DH-KUR-00068,Mirror Work Kurti,Womenswear,Kurti,V06,PINK,rayon slub,849,adult,2025-05-19
+DH-KUR-00069,Block Print Straight Kurti,Womenswear,Kurti,V16,NAVY,100% cotton,749,adult,2026-06-21
+DH-KUR-00070,Floral A-line Kurti,Womenswear,Kurti,V07,Burgundy,Georgette,899,adult,2025-12-01
+DH-KUR-00071,Office Wear Kurti,Womenswear,Kurti,V37,multi-colour,poly crepe,949,adult,2025-02-17
+DH-KUR-00072,Floral A-line Kurti,Womenswear,Kurti,V07,Lemon,Rayon,949,adult,2026-06-04
+DH-KUR-00073,Block Print Straight Kurti,Womenswear,Kurti,V34,pink,georgette,599,adult,2025-11-20
+DH-KUR-00074,Chikankari Kurti,Womenswear,Kurti,V07,PINK,rayon slub,849,adult,2026-06-16
+DH-KUR-00075,Chikankari Kurti,Womenswear,Kurti,V40,Tomato Red,,799,adult,2025-12-31
+DH-KUR-00076,Block Print Straight Kurti,Womenswear,Kurti,V31,Rani Pink,Twill cotton,749,adult,2025-11-05
+DH-KUR-00077,Office Wear Kurti,Womenswear,Kurti,V32,blue,cotton lycra,749,adult,2026-05-05
+DH-KUR-00078,Chikankari Kurti,Womenswear,Kurti,V16,green,cotton blend,799,adult,2025-05-07
+DH-KUR-00079,Mirror Work Kurti,Womenswear,Kurti,V07,baby pink,cotton,949,adult,2025-08-29
+DH-KUR-00080,Office Wear Kurti,Womenswear,Kurti,V27,Black,soft cotton feel,849,adult,2025-07-06
+DH-KUR-00081,Floral A-line Kurti,Womenswear,Kurti,V25,blk,poly crepe,1149,adult,2026-03-23
+DH-KUR-00082,Office Wear Kurti,Womenswear,Kurti,V01,Coral,Modal,749,adult,2025-07-28
+DH-KUR-00083,Anarkali Kurti,Womenswear,Kurti,V39,teal blue,Crepe,849,adult,2025-03-15
+DH-KUR-00084,Office Wear Kurti,Womenswear,Kurti,V25,MAROON,mul cotton,949,adult,2025-07-12
+DH-KUR-00085,Office Wear Kurti,Womenswear,Kurti,V09,Red,cotton,849,adult,2026-05-01
+DH-KUR-00086,Block Print Straight Kurti,Womenswear,Kurti,V07,Multi,rayon,1099,adult,2024-12-18
+DH-KUR-00087,Anarkali Kurti,Womenswear,Kurti,V21,Jet Black,rayon,849,adult,2025-03-06
+DH-KUR-00088,Mirror Work Kurti,Womenswear,Kurti,V17,blk,Cotton,849,adult,2024-10-24
+DH-KUR-00089,Mirror Work Kurti,Womenswear,Kurti,V15,White,Twill cotton,649,adult,2026-05-29
+DH-KUR-00090,Chikankari Kurti,Womenswear,Kurti,V07,MAROON,Rayon,1049,adult,2025-02-22
+DH-KUR-00091,Block Print Straight Kurti,Womenswear,Kurti,V31,Blush,cotton lycra,649,adult,2026-06-18
+DH-KUR-00092,Mirror Work Kurti,Womenswear,Kurti,V21,green,Twill cotton,899,adult,2025-01-20
+DH-KUR-00093,Anarkali Kurti,Womenswear,Kurti,V07,PINK,Hosiery cotton,899,adult,2024-11-20
+DH-KUR-00094,Mirror Work Kurti,Womenswear,Kurti,V26,Charcoal Black,Rayon,649,adult,2025-02-21
+DH-KUR-00095,Chikankari Kurti,Womenswear,Kurti,V20,Navy,Polyester,1049,adult,2026-04-08
+DH-KUR-00096,Chikankari Kurti,Womenswear,Kurti,V28,Teal,100% cotton,799,adult,2026-06-10
+DH-KUR-00097,Anarkali Kurti,Womenswear,Kurti,V32,Charcoal Black,,799,adult,2024-11-18
+DH-KUR-00098,Chikankari Kurti,Womenswear,Kurti,V10,Rust,linen blend,699,adult,2025-10-21
+DH-KUR-00099,Mirror Work Kurti,Womenswear,Kurti,V31,Indigo,rayon,799,adult,2025-11-21
+DH-KUR-00100,Office Wear Kurti,Womenswear,Kurti,V16,off-white,Twill cotton,749,adult,2024-10-29
+DH-KUR-00101,Anarkali Kurti,Womenswear,Kurti,V37,Red,Crepe,949,adult,2026-04-18
+DH-KUR-00102,Anarkali Kurti,Womenswear,Kurti,V12,Cream,rayon,749,adult,2025-12-14
+DH-KUR-00103,Block Print Straight Kurti,Womenswear,Kurti,V07,Grey,Rayon,549,adult,2026-02-22
+DH-KUR-00104,Mirror Work Kurti,Womenswear,Kurti,V07,Jet Black,Khadi cotton,999,adult,2026-02-21
+DH-KUR-00105,Block Print Straight Kurti,Womenswear,Kurti,V29,Coral,cotton lycra,649,adult,2024-08-19
+DH-KUR-00106,Office Wear Kurti,Womenswear,Kurti,V20,Ochre,Chanderi (art silk),899,adult,2026-06-12
+DH-KUR-00107,Mirror Work Kurti,Womenswear,Kurti,V28,Ivory,rayon,799,adult,2026-02-16
+DH-KUR-00108,Block Print Straight Kurti,Womenswear,Kurti,V17,olive green,Pure Cotton,699,adult,2025-03-26
+DH-KUR-00109,Office Wear Kurti,Womenswear,Kurti,V12,Powder Blue,Denim,749,adult,2025-02-14
+DH-KUR-00110,Floral A-line Kurti,Womenswear,Kurti,V34,Slate,soft cotton feel,749,adult,2026-04-05
+DH-KUR-00111,Floral A-line Kurti,Womenswear,Kurti,V15,Mehendi Green,cotton blend,699,adult,2025-08-06
+DH-KUR-00112,Mirror Work Kurti,Womenswear,Kurti,V12,Bottle Green,Khadi cotton,899,adult,2024-09-26
+DH-KUR-00113,Office Wear Kurti,Womenswear,Kurti,V07,Tomato Red,georgette,899,adult,2024-08-14
+DH-KUR-00114,Office Wear Kurti,Womenswear,Kurti,V12,white,mul cotton,749,adult,2024-09-23
+DH-KUR-00115,Mirror Work Kurti,Womenswear,Kurti,V26,Navy,cotton blend,649,adult,2025-12-18
+DH-KUR-00116,Block Print Straight Kurti,Womenswear,Kurti,V37,pink,Modal,649,adult,2025-06-09
+DH-KUR-00117,Block Print Straight Kurti,Womenswear,Kurti,V39,blk,poly crepe,999,adult,2026-04-04
+DH-KUR-00118,Office Wear Kurti,Womenswear,Kurti,V29,Rust,Linen look,1049,adult,2025-06-02
+DH-KUR-00119,Floral A-line Kurti,Womenswear,Kurti,V04,Slate,soft cotton feel,1199,adult,2026-04-18
+DH-KUR-00120,Block Print Straight Kurti,Womenswear,Kurti,V07,multicolour,Cotton Blend (60/40),949,adult,2025-04-29
+DH-KUR-00121,Sharara Set,Womenswear,Kurta Set,V05,Indigo,Crepe,949,adult,2025-01-09
+DH-KUR-00122,Mehndi Function Kurta Set,Womenswear,Kurta Set,V03,mint green,cotton,1099,adult,2025-03-27
+DH-KUR-00123,Dupatta Kurta Set,Womenswear,Kurta Set,V15,printed multi,Muslin,1299,adult,2025-04-29
+DH-KUR-00124,Festive Kurta Set,Womenswear,Kurta Set,V28,Haldi,mul cotton,1199,adult,2024-11-27
+DH-KUR-00125,Mehndi Function Kurta Set,Womenswear,Kurta Set,V05,PINK,Denim,1049,adult,2024-10-02
+DH-KUR-00126,Mehndi Function Kurta Set,Womenswear,Kurta Set,V19,Silver Grey,poly crepe,1049,adult,2025-10-25
+DH-KUR-00127,Kurta Palazzo Set,Womenswear,Kurta Set,V33,Sea Green,Cotton,1149,adult,2026-02-05
+DH-KUR-00128,Kurta Palazzo Set,Womenswear,Kurta Set,V21,black,Hosiery cotton,1099,adult,2026-04-12
+DH-KUR-00129,Mehndi Function Kurta Set,Womenswear,Kurta Set,V38,Ash,Cotton,1499,adult,2024-08-23
+DH-KUR-00130,Mehndi Function Kurta Set,Womenswear,Kurta Set,V31,Baby Pink,Linen look,1249,adult,2026-01-15
+DH-KUR-00131,Sharara Set,Womenswear,Kurta Set,V32,BLACK,rayon slub,1149,adult,2024-11-03
+DH-KUR-00132,Sharara Set,Womenswear,Kurta Set,V07,Multi Color,Hosiery cotton,1099,adult,2025-01-13
+DH-KUR-00133,Mehndi Function Kurta Set,Womenswear,Kurta Set,V36,BLACK,rayon slub,1149,adult,2024-09-08
+DH-KUR-00134,Kurta Palazzo Set,Womenswear,Kurta Set,V26,Ink Blue,georgette,1299,adult,2026-01-10
+DH-KUR-00135,Dupatta Kurta Set,Womenswear,Kurta Set,V04,Jet Black,Khadi cotton,1199,adult,2025-02-10
+DH-KUR-00136,Festive Kurta Set,Womenswear,Kurta Set,V04,Rust,georgette,1099,adult,2025-02-26
+DH-KUR-00137,Dupatta Kurta Set,Womenswear,Kurta Set,V12,Brick Red,cotton lycra,1449,adult,2024-08-31
+DH-KUR-00138,Sharara Set,Womenswear,Kurta Set,V20,pink,Rayon,949,adult,2026-02-17
+DH-KUR-00139,Festive Kurta Set,Womenswear,Kurta Set,V30,Midnight Blue,cotton lycra,1249,adult,2024-11-30
+DH-KUR-00140,Sharara Set,Womenswear,Kurta Set,V33,mint green,Rayon,1149,adult,2025-05-08
+DH-KUR-00141,Dupatta Kurta Set,Womenswear,Kurta Set,V36,Cherry Red,Cambric cotton,1149,adult,2024-12-28
+DH-KUR-00142,Dupatta Kurta Set,Womenswear,Kurta Set,V18,nvy,mul cotton,1099,adult,2025-09-30
+DH-KUR-00143,Dupatta Kurta Set,Womenswear,Kurta Set,V21,Burgundy,Cambric cotton,1299,adult,2025-06-03
+DH-KUR-00144,Mehndi Function Kurta Set,Womenswear,Kurta Set,V29,Peach Pink,Twill cotton,1149,adult,2026-02-04
+DH-KUR-00145,Festive Kurta Set,Womenswear,Kurta Set,V25,sky,Linen look,1399,adult,2025-11-11
+DH-KUR-00146,Sharara Set,Womenswear,Kurta Set,V15,Charcoal Black,Muslin,999,adult,2025-09-26
+DH-KUR-00147,Festive Kurta Set,Womenswear,Kurta Set,V25,Jet Black,Cotton,1299,adult,2026-06-12
+DH-KUR-00148,Kurta Palazzo Set,Womenswear,Kurta Set,V33,Blush,Pure Cotton,1099,adult,2026-03-29
+DH-KUR-00149,Sharara Set,Womenswear,Kurta Set,V30,Sky Blue,cotton,1249,adult,2024-08-17
+DH-KUR-00150,Sharara Set,Womenswear,Kurta Set,V17,red,Cambric cotton,1199,adult,2025-07-14
+DH-KUR-00151,Sharara Set,Womenswear,Kurta Set,V35,WHT,Cotton,1399,adult,2025-08-26
+DH-KUR-00152,Mehndi Function Kurta Set,Womenswear,Kurta Set,V05,Gray,Denim,1199,adult,2025-03-30
+DH-KUR-00153,Kurta Palazzo Set,Womenswear,Kurta Set,V12,Midnight Blue,Cotton Blend (60/40),1299,adult,2024-11-10
+DH-KUR-00154,Kurta Palazzo Set,Womenswear,Kurta Set,V02,Olive,Polyester,1099,adult,2024-09-18
+DH-KUR-00155,Sharara Set,Womenswear,Kurta Set,V28,Off White,Cotton Blend (60/40),1099,adult,2024-12-29
+DH-KUR-00156,Dupatta Kurta Set,Womenswear,Kurta Set,V06,baby pink,Crepe,1349,adult,2026-04-18
+DH-KUR-00157,Mehndi Function Kurta Set,Womenswear,Kurta Set,V10,Grey Melange,rayon,1149,adult,2025-03-27
+DH-KUR-00158,Dupatta Kurta Set,Womenswear,Kurta Set,V01,multicolour,cotton,1349,adult,2025-11-21
+DH-KUR-00159,Sharara Set,Womenswear,Kurta Set,V23,Rust,georgette,1099,adult,2026-03-26
+DH-KUR-00160,Kurta Palazzo Set,Womenswear,Kurta Set,V13,bottle grn,poly crepe,1349,adult,2025-08-30
+DH-KUR-00161,Mehndi Function Kurta Set,Womenswear,Kurta Set,V23,Grey,mul cotton,1099,adult,2026-03-13
+DH-KUR-00162,Kurta Palazzo Set,Womenswear,Kurta Set,V26,Printed,Denim,949,adult,2025-05-10
+DH-KUR-00163,Mehndi Function Kurta Set,Womenswear,Kurta Set,V19,Brick Red,Khadi cotton,1199,adult,2025-03-25
+DH-KUR-00164,Festive Kurta Set,Womenswear,Kurta Set,V40,yellow,,1249,adult,2025-04-15
+DH-KUR-00165,Kurta Palazzo Set,Womenswear,Kurta Set,V03,Printed,Polyester,1299,adult,2025-06-14
+DH-KUR-00166,Sharara Set,Womenswear,Kurta Set,V06,Baby Pink,soft cotton feel,1099,adult,2025-05-31
+DH-KUR-00167,Mehndi Function Kurta Set,Womenswear,Kurta Set,V35,Baby Pink,rayon,1199,adult,2025-08-11
+DH-KUR-00168,Sharara Set,Womenswear,Kurta Set,V19,red,cotton blend,1299,adult,2025-07-14
+DH-KUR-00169,Sharara Set,Womenswear,Kurta Set,V12,Yellow,rayon,1099,adult,2026-02-23
+DH-KUR-00170,Mehndi Function Kurta Set,Womenswear,Kurta Set,V08,Indigo,poly crepe,1149,adult,2025-11-10
+DH-KUR-00171,Sharara Set,Womenswear,Kurta Set,V24,Multi,linen blend,1249,adult,2024-11-20
+DH-KUR-00172,Kurta Palazzo Set,Womenswear,Kurta Set,V21,Turquoise,cotton lycra,1099,adult,2026-04-18
+DH-KUR-00173,Kurta Palazzo Set,Womenswear,Kurta Set,V27,Olive,Crepe,1049,adult,2024-11-29
+DH-KUR-00174,Festive Kurta Set,Womenswear,Kurta Set,V07,dk blue,georgette,1349,adult,2025-03-30
+DH-KUR-00175,Festive Kurta Set,Womenswear,Kurta Set,V35,cream,Khadi cotton,1199,adult,2025-10-05
+DH-KUR-00176,Mehndi Function Kurta Set,Womenswear,Kurta Set,V32,Navy,cotton lycra,1149,adult,2026-04-24
+DH-KUR-00177,Festive Kurta Set,Womenswear,Kurta Set,V14,Cream,Pure Cotton,1149,adult,2025-10-30
+DH-KUR-00178,Mehndi Function Kurta Set,Womenswear,Kurta Set,V24,Multi,poly crepe,1349,adult,2026-02-10
+DH-KUR-00179,Sharara Set,Womenswear,Kurta Set,V13,green,Hosiery cotton,1399,adult,2024-12-05
+DH-KUR-00180,Mehndi Function Kurta Set,Womenswear,Kurta Set,V39,mustard yellow,cotton blend,999,adult,2024-08-23
+DH-DRE-00181,Ruffle Midi Dress,Womenswear,Dress,V14,Gray,Linen look,1149,adult,2024-10-11
+DH-DRE-00182,Ruffle Midi Dress,Womenswear,Dress,V07,Yellow,rayon,1099,adult,2025-07-04
+DH-DRE-00183,Shirt Dress,Womenswear,Dress,V09,pink,Hosiery cotton,849,adult,2026-02-06
+DH-DRE-00184,Shirt Dress,Womenswear,Dress,V09,Dark Maroon,rayon slub,899,adult,2024-08-17
+DH-DRE-00185,Fit and Flare Dress,Womenswear,Dress,V12,burgandy,Pure Cotton,699,adult,2025-04-30
+DH-DRE-00186,Ruffle Midi Dress,Womenswear,Dress,V31,navy blue,georgette,1099,adult,2025-11-04
+DH-DRE-00187,Ruffle Midi Dress,Womenswear,Dress,V15,Powder Blue,georgette,699,adult,2026-04-23
+DH-DRE-00188,Fit and Flare Dress,Womenswear,Dress,V02,multi-colour,Hosiery cotton,1399,adult,2024-10-03
+DH-DRE-00189,Tiered Maxi Dress,Womenswear,Dress,V07,Dark Blue,linen blend,749,adult,2025-10-30
+DH-DRE-00190,Ruffle Midi Dress,Womenswear,Dress,V05,Peach Pink,cotton lycra,849,adult,2024-12-09
+DH-DRE-00191,Fit and Flare Dress,Womenswear,Dress,V25,WHT,linen blend,949,adult,2026-04-05
+DH-DRE-00192,Ruffle Midi Dress,Womenswear,Dress,V12,Charcoal Black,Cambric cotton,1149,adult,2024-11-27
+DH-DRE-00193,Fit and Flare Dress,Womenswear,Dress,V07,haldi yellow,mul cotton,1199,adult,2025-11-07
+DH-DRE-00194,Wrap Dress,Womenswear,Dress,V26,Coral,rayon slub,1099,adult,2025-10-01
+DH-DRE-00195,Fit and Flare Dress,Womenswear,Dress,V17,Multi,cotton,1299,adult,2025-08-20
+DH-DRE-00196,Wrap Dress,Womenswear,Dress,V06,NAVY,Modal,749,adult,2025-10-18
+DH-DRE-00197,Tiered Maxi Dress,Womenswear,Dress,V38,wine red,Polyester,999,adult,2026-02-28
+DH-DRE-00198,Ruffle Midi Dress,Womenswear,Dress,V07,Multi Color,Polyester,1299,adult,2024-09-23
+DH-DRE-00199,Fit and Flare Dress,Womenswear,Dress,V37,Navy Blue,Cambric cotton,849,adult,2026-01-03
+DH-DRE-00200,Wrap Dress,Womenswear,Dress,V07,Navy Blue,Muslin,899,adult,2026-02-22
+DH-DRE-00201,Ruffle Midi Dress,Womenswear,Dress,V36,Black,linen blend,999,adult,2026-04-30
+DH-DRE-00202,Wrap Dress,Womenswear,Dress,V18,Multi Color,Polyester,799,adult,2024-08-31
+DH-DRE-00203,Fit and Flare Dress,Womenswear,Dress,V21,maroon,cotton blend,999,adult,2024-12-26
+DH-DRE-00204,Shirt Dress,Womenswear,Dress,V02,multi-colour,Georgette,1099,adult,2024-11-03
+DH-DRE-00205,Wrap Dress,Womenswear,Dress,V22,red,,899,adult,2025-01-10
+DH-DRE-00206,Tiered Maxi Dress,Womenswear,Dress,V10,maroon,rayon,1099,adult,2025-01-10
+DH-DRE-00207,Fit and Flare Dress,Womenswear,Dress,V07,Rust,soft cotton feel,999,adult,2025-12-12
+DH-DRE-00208,Wrap Dress,Womenswear,Dress,V08,Indigo,Crepe,899,adult,2025-07-21
+DH-DRE-00209,Ruffle Midi Dress,Womenswear,Dress,V20,Blue,100% cotton,849,adult,2024-09-17
+DH-DRE-00210,Wrap Dress,Womenswear,Dress,V20,Haldi,rayon slub,1099,adult,2025-03-06
+DH-DRE-00211,Shirt Dress,Womenswear,Dress,V07,NAVY,poly crepe,1099,adult,2025-12-24
+DH-DRE-00212,Wrap Dress,Womenswear,Dress,V15,blue,poly crepe,999,adult,2025-12-27
+DH-DRE-00213,Tiered Maxi Dress,Womenswear,Dress,V28,Wine,Linen look,949,adult,2024-08-21
+DH-DRE-00214,Fit and Flare Dress,Womenswear,Dress,V37,BLACK,Pure Cotton,1049,adult,2025-09-20
+DH-DRE-00215,Ruffle Midi Dress,Womenswear,Dress,V02,Jet Black,mul cotton,799,adult,2025-06-30
+DH-DRE-00216,Shirt Dress,Womenswear,Dress,V21,cream,Linen look,1149,adult,2025-10-23
+DH-DRE-00217,Wrap Dress,Womenswear,Dress,V34,Charcoal Black,rayon slub,899,adult,2024-10-21
+DH-DRE-00218,Tiered Maxi Dress,Womenswear,Dress,V22,Ochre,Chanderi (art silk),749,adult,2025-01-21
+DH-DRE-00219,Shirt Dress,Womenswear,Dress,V23,mustard yellow,Pure Cotton,1049,adult,2025-07-27
+DH-DRE-00220,Shirt Dress,Womenswear,Dress,V17,pink,Cotton Blend (60/40),799,adult,2025-02-20
+DH-DRE-00221,Ruffle Midi Dress,Womenswear,Dress,V32,multi-colour,Hosiery cotton,1099,adult,2025-11-20
+DH-DRE-00222,Wrap Dress,Womenswear,Dress,V40,Gray,georgette,1199,adult,2025-06-28
+DH-DRE-00223,Wrap Dress,Womenswear,Dress,V31,Navy,Polyester,999,adult,2025-10-28
+DH-DRE-00224,Tiered Maxi Dress,Womenswear,Dress,V05,Blue,Polyester,949,adult,2025-06-15
+DH-DRE-00225,Tiered Maxi Dress,Womenswear,Dress,V07,Sea Green,linen blend,1199,adult,2026-05-24
+DH-DRE-00226,Tiered Maxi Dress,Womenswear,Dress,V25,Turquoise,Muslin,999,adult,2025-11-18
+DH-DRE-00227,Ruffle Midi Dress,Womenswear,Dress,V07,Gray,Cotton,999,adult,2025-06-27
+DH-DRE-00228,Tiered Maxi Dress,Womenswear,Dress,V07,Cherry Red,Cotton,1349,adult,2025-07-19
+DH-DRE-00229,Ruffle Midi Dress,Womenswear,Dress,V29,Mustard,Polyester,949,adult,2025-10-25
+DH-DRE-00230,Wrap Dress,Womenswear,Dress,V19,White,Muslin,899,adult,2025-09-02
+DH-DRE-00231,Ruffle Midi Dress,Womenswear,Dress,V22,printed multi,poly crepe,899,adult,2024-10-08
+DH-DRE-00232,Ruffle Midi Dress,Womenswear,Dress,V12,Bottle Green,rayon slub,1299,adult,2026-06-05
+DH-DRE-00233,Wrap Dress,Womenswear,Dress,V38,nvy,Khadi cotton,799,adult,2026-06-12
+DH-DRE-00234,Tiered Maxi Dress,Womenswear,Dress,V26,Multi Color,Modal,999,adult,2024-12-12
+DH-DRE-00235,Ruffle Midi Dress,Womenswear,Dress,V22,Black,Khadi cotton,1049,adult,2024-12-10
+DH-DRE-00236,Wrap Dress,Womenswear,Dress,V28,Multi Color,Cotton Blend (60/40),899,adult,2026-01-04
+DH-DRE-00237,Shirt Dress,Womenswear,Dress,V07,Mustard,cotton,799,adult,2025-12-12
+DH-DRE-00238,Ruffle Midi Dress,Womenswear,Dress,V07,Green,Hosiery cotton,1099,adult,2026-01-03
+DH-DRE-00239,Shirt Dress,Womenswear,Dress,V07,Off White,Cotton Blend (60/40),999,adult,2024-12-14
+DH-DRE-00240,Wrap Dress,Womenswear,Dress,V11,Silver Grey,Denim,699,adult,2025-10-24
+DH-DRE-00241,Fit and Flare Dress,Womenswear,Dress,V07,mustard yellow,Modal,849,adult,2026-04-19
+DH-DRE-00242,Shirt Dress,Womenswear,Dress,V07,haldi yellow,Hosiery cotton,1199,adult,2025-11-25
+DH-DRE-00243,Fit and Flare Dress,Womenswear,Dress,V07,Ash,Chanderi (art silk),1099,adult,2025-11-17
+DH-DRE-00244,Shirt Dress,Womenswear,Dress,V12,BLACK,Cotton,1149,adult,2025-02-22
+DH-DRE-00245,Tiered Maxi Dress,Womenswear,Dress,V31,printed multi,Cambric cotton,999,adult,2025-08-17
+DH-DRE-00246,Shirt Dress,Womenswear,Dress,V08,Powder Blue,georgette,749,adult,2025-05-20
+DH-DRE-00247,Shirt Dress,Womenswear,Dress,V10,Turquoise,,749,adult,2025-10-23
+DH-DRE-00248,Ruffle Midi Dress,Womenswear,Dress,V02,Cream,Rayon,749,adult,2025-09-30
+DH-DRE-00249,Wrap Dress,Womenswear,Dress,V06,Black,mul cotton,849,adult,2025-08-20
+DH-DRE-00250,Wrap Dress,Womenswear,Dress,V22,As per image,Crepe,799,adult,2024-12-29
+DH-DRE-00251,Tiered Maxi Dress,Womenswear,Dress,V31,Pink,rayon,999,adult,2025-11-04
+DH-DRE-00252,Ruffle Midi Dress,Womenswear,Dress,V10,Ochre,Georgette,1249,adult,2026-02-14
+DH-TOP-00253,Peplum Top,Womenswear,Top,V19,Navy Blue,Georgette,549,adult,2025-04-02
+DH-TOP-00254,Tie-up Top,Womenswear,Top,V40,Printed,Modal,499,adult,2025-11-13
+DH-TOP-00255,Puff Sleeve Top,Womenswear,Top,V33,mrn,Georgette,549,adult,2026-03-13
+DH-TOP-00256,Tie-up Top,Womenswear,Top,V40,MAROON,Hosiery cotton,549,adult,2025-07-29
+DH-TOP-00257,Peplum Top,Womenswear,Top,V06,Printed,Modal,849,adult,2026-01-20
+DH-TOP-00258,Tie-up Top,Womenswear,Top,V33,Blue,Khadi cotton,449,adult,2026-02-20
+DH-TOP-00259,Basic Crop Top,Womenswear,Top,V12,Black,Polyester,699,adult,2025-04-18
+DH-TOP-00260,Basic Crop Top,Womenswear,Top,V07,Mustard,Cotton,699,adult,2026-03-20
+DH-TOP-00261,Puff Sleeve Top,Womenswear,Top,V35,Ivory,cotton lycra,749,adult,2025-07-14
+DH-TOP-00262,Tie-up Top,Womenswear,Top,V12,Red,Viscose Rayon,499,adult,2024-12-18
+DH-TOP-00263,Basic Crop Top,Womenswear,Top,V03,Haldi,Chanderi (art silk),799,adult,2025-02-22
+DH-TOP-00264,Puff Sleeve Top,Womenswear,Top,V35,BLACK,Polyester,549,adult,2025-11-29
+DH-TOP-00265,Basic Crop Top,Womenswear,Top,V22,wine red,,499,adult,2025-05-08
+DH-TOP-00266,Puff Sleeve Top,Womenswear,Top,V29,Jet Black,cotton lycra,599,adult,2025-09-01
+DH-TOP-00267,Peplum Top,Womenswear,Top,V24,Coral,cotton,549,adult,2026-01-15
+DH-TOP-00268,Basic Crop Top,Womenswear,Top,V39,Black,cotton,649,adult,2025-02-02
+DH-TOP-00269,Tie-up Top,Womenswear,Top,V19,Off White,cotton lycra,599,adult,2025-06-11
+DH-TOP-00270,Basic Crop Top,Womenswear,Top,V23,Coral,rayon,499,adult,2025-11-02
+DH-TOP-00271,Tie-up Top,Womenswear,Top,V04,Multi Color,Chanderi (art silk),699,adult,2024-10-17
+DH-TOP-00272,Office Top,Womenswear,Top,V11,printed multi,Muslin,549,adult,2024-09-02
+DH-TOP-00273,Basic Crop Top,Womenswear,Top,V03,rust,poly crepe,499,adult,2024-12-09
+DH-TOP-00274,Tie-up Top,Womenswear,Top,V03,grey melange,Polyester,549,adult,2026-04-13
+DH-TOP-00275,Basic Crop Top,Womenswear,Top,V05,Coral,rayon slub,549,adult,2026-03-12
+DH-TOP-00276,Peplum Top,Womenswear,Top,V18,printed multi,Cotton Blend (60/40),849,adult,2025-04-14
+DH-TOP-00277,Peplum Top,Womenswear,Top,V34,Rust,Twill cotton,799,adult,2025-09-02
+DH-TOP-00278,Basic Crop Top,Womenswear,Top,V29,mint green,soft cotton feel,899,adult,2025-03-09
+DH-TOP-00279,Tie-up Top,Womenswear,Top,V09,navy blue,Muslin,599,adult,2024-10-16
+DH-TOP-00280,Peplum Top,Womenswear,Top,V21,Printed,Modal,599,adult,2026-06-16
+DH-TOP-00281,Puff Sleeve Top,Womenswear,Top,V20,olive green,Chanderi (art silk),699,adult,2025-01-10
+DH-TOP-00282,Puff Sleeve Top,Womenswear,Top,V08,YLW,100% cotton,749,adult,2025-02-23
+DH-TOP-00283,Office Top,Womenswear,Top,V12,Off White,linen blend,599,adult,2026-03-11
+DH-TOP-00284,Tie-up Top,Womenswear,Top,V12,Ink Blue,Georgette,599,adult,2025-06-14
+DH-TOP-00285,Basic Crop Top,Womenswear,Top,V37,Charcoal Black,cotton,499,adult,2024-10-16
+DH-TOP-00286,Puff Sleeve Top,Womenswear,Top,V21,Cherry Red,Twill cotton,649,adult,2026-06-29
+DH-TOP-00287,Peplum Top,Womenswear,Top,V28,pink,Chanderi (art silk),799,adult,2025-12-29
+DH-TOP-00288,Puff Sleeve Top,Womenswear,Top,V20,rani,Chanderi (art silk),549,adult,2025-01-17
+DH-TOP-00289,Office Top,Womenswear,Top,V06,Olive,cotton blend,549,adult,2025-04-15
+DH-TOP-00290,Office Top,Womenswear,Top,V21,printed multi,Cotton Blend (60/40),649,adult,2026-04-23
+DH-TOP-00291,Office Top,Womenswear,Top,V38,Silver Grey,,549,adult,2025-01-06
+DH-TOP-00292,Peplum Top,Womenswear,Top,V22,Grey,Cotton,499,adult,2026-03-02
+DH-TOP-00293,Office Top,Womenswear,Top,V37,multi-colour,linen blend,699,adult,2025-04-30
+DH-TOP-00294,Office Top,Womenswear,Top,V02,Multi Color,Khadi cotton,799,adult,2025-12-24
+DH-TOP-00295,Tie-up Top,Womenswear,Top,V31,Olive,georgette,749,adult,2025-04-09
+DH-TOP-00296,Tie-up Top,Womenswear,Top,V04,Midnight Blue,soft cotton feel,599,adult,2025-01-10
+DH-TOP-00297,Basic Crop Top,Womenswear,Top,V39,Cream,poly crepe,599,adult,2024-12-27
+DH-TOP-00298,Basic Crop Top,Womenswear,Top,V24,baby pink,georgette,649,adult,2026-01-11
+DH-TOP-00299,Peplum Top,Womenswear,Top,V18,Navy,Viscose Rayon,549,adult,2025-11-05
+DH-TOP-00300,Puff Sleeve Top,Womenswear,Top,V40,BLACK,Linen look,549,adult,2025-10-04
+DH-TOP-00301,Office Top,Womenswear,Top,V13,Ivory,Crepe,649,adult,2025-01-12
+DH-TOP-00302,Tie-up Top,Womenswear,Top,V32,Mehendi Green,georgette,499,adult,2024-08-25
+DH-TOP-00303,Peplum Top,Womenswear,Top,V14,Haldi,Crepe,599,adult,2026-03-22
+DH-TOP-00304,Peplum Top,Womenswear,Top,V31,Grey Melange,cotton blend,649,adult,2025-05-21
+DH-TOP-00305,Tie-up Top,Womenswear,Top,V24,Green,Linen look,599,adult,2025-09-18
+DH-TOP-00306,Peplum Top,Womenswear,Top,V12,teal blue,Chanderi (art silk),649,adult,2025-08-08
+DH-TOP-00307,Office Top,Womenswear,Top,V36,red,cotton blend,749,adult,2025-05-15
+DH-TOP-00308,Basic Crop Top,Womenswear,Top,V26,Ink Blue,Polyester,749,adult,2025-08-19
+DH-TOP-00309,Office Top,Womenswear,Top,V13,Pink,Cotton,649,adult,2026-04-10
+DH-TOP-00310,Office Top,Womenswear,Top,V09,Burgundy,cotton blend,749,adult,2025-07-09
+DH-TOP-00311,Office Top,Womenswear,Top,V33,grey melange,Cotton Blend (60/40),599,adult,2024-12-23
+DH-TOP-00312,Office Top,Womenswear,Top,V40,blk,Modal,649,adult,2025-06-04
+DH-PAL-00313,Flared Palazzo,Womenswear,Palazzo,V12,rust,rayon slub,599,adult,2025-06-04
+DH-PAL-00314,Solid Palazzo,Womenswear,Palazzo,V08,As per image,cotton lycra,599,adult,2025-10-02
+DH-PAL-00315,Solid Palazzo,Womenswear,Palazzo,V02,As per image,Twill cotton,599,adult,2026-04-05
+DH-PAL-00316,Solid Palazzo,Womenswear,Palazzo,V37,Grey Melange,Cotton Blend (60/40),649,adult,2025-03-23
+DH-PAL-00317,Solid Palazzo,Womenswear,Palazzo,V40,sky,Cotton,499,adult,2025-08-26
+DH-PAL-00318,Printed Palazzo,Womenswear,Palazzo,V08,Grey Melange,cotton blend,449,adult,2025-02-13
+DH-PAL-00319,Solid Palazzo,Womenswear,Palazzo,V14,Jet Black,Cambric cotton,599,adult,2025-09-26
+DH-PAL-00320,Printed Palazzo,Womenswear,Palazzo,V09,Burgundy,Chanderi (art silk),499,adult,2026-01-15
+DH-PAL-00321,Solid Palazzo,Womenswear,Palazzo,V21,BLACK,Modal,599,adult,2025-01-26
+DH-PAL-00322,Flared Palazzo,Womenswear,Palazzo,V17,OffWhite,Modal,599,adult,2026-04-18
+DH-PAL-00323,Solid Palazzo,Womenswear,Palazzo,V15,bottle grn,cotton lycra,649,adult,2025-06-02
+DH-PAL-00324,Solid Palazzo,Womenswear,Palazzo,V21,Rust,Viscose Rayon,549,adult,2025-12-06
+DH-PAL-00325,Printed Palazzo,Womenswear,Palazzo,V12,Dark Blue,Twill cotton,599,adult,2026-06-25
+DH-PAL-00326,Solid Palazzo,Womenswear,Palazzo,V19,pink,Polyester,549,adult,2024-09-14
+DH-PAL-00327,Solid Palazzo,Womenswear,Palazzo,V17,Rust,Modal,549,adult,2025-12-05
+DH-PAL-00328,Solid Palazzo,Womenswear,Palazzo,V09,bottle grn,Rayon,599,adult,2024-11-21
+DH-PAL-00329,Flared Palazzo,Womenswear,Palazzo,V34,maroon,Georgette,599,adult,2025-03-21
+DH-PAL-00330,Flared Palazzo,Womenswear,Palazzo,V31,White,Modal,649,adult,2024-11-12
+DH-PAL-00331,Printed Palazzo,Womenswear,Palazzo,V27,Blush,Khadi cotton,749,adult,2026-06-01
+DH-PAL-00332,Flared Palazzo,Womenswear,Palazzo,V19,yellow,Khadi cotton,549,adult,2025-06-26
+DH-PAL-00333,Flared Palazzo,Womenswear,Palazzo,V15,Gray,Georgette,649,adult,2026-01-31
+DH-PAL-00334,Flared Palazzo,Womenswear,Palazzo,V03,Rani Pink,,649,adult,2025-09-12
+DH-PAL-00335,Flared Palazzo,Womenswear,Palazzo,V01,Wine,Viscose Rayon,599,adult,2025-06-03
+DH-PAL-00336,Flared Palazzo,Womenswear,Palazzo,V35,Tomato Red,rayon,599,adult,2026-01-20
+DH-PAL-00337,Printed Palazzo,Womenswear,Palazzo,V08,Haldi,cotton lycra,499,adult,2025-07-06
+DH-PAL-00338,Solid Palazzo,Womenswear,Palazzo,V01,baby pink,Cotton Blend (60/40),649,adult,2025-07-13
+DH-PAL-00339,Flared Palazzo,Womenswear,Palazzo,V26,Grey Melange,Hosiery cotton,599,adult,2025-10-13
+DH-PAL-00340,Flared Palazzo,Womenswear,Palazzo,V12,Navy,rayon,599,adult,2024-12-23
+DH-PAL-00341,Printed Palazzo,Womenswear,Palazzo,V16,BLACK,Linen look,649,adult,2025-11-02
+DH-PAL-00342,Solid Palazzo,Womenswear,Palazzo,V01,Gray,Cotton,649,adult,2025-04-26
+DH-CO--00343,Linen Look Co-ord,Womenswear,Co-ord Set,V08,printed multi,Chanderi (art silk),1099,adult,2025-11-21
+DH-CO--00344,Linen Look Co-ord,Womenswear,Co-ord Set,V21,olive green,linen blend,1399,adult,2026-05-18
+DH-CO--00345,Linen Look Co-ord,Womenswear,Co-ord Set,V15,haldi yellow,Georgette,1149,adult,2024-12-16
+DH-CO--00346,Printed Co-ord Set,Womenswear,Co-ord Set,V31,sky,Hosiery cotton,1299,adult,2026-02-03
+DH-CO--00347,Lounge Co-ord Set,Womenswear,Co-ord Set,V06,grey melange,cotton,1149,adult,2026-01-22
+DH-CO--00348,Lounge Co-ord Set,Womenswear,Co-ord Set,V21,Gray,Linen look,1299,adult,2024-10-04
+DH-CO--00349,Lounge Co-ord Set,Womenswear,Co-ord Set,V10,Turquoise,Pure Cotton,1099,adult,2025-01-17
+DH-CO--00350,Lounge Co-ord Set,Womenswear,Co-ord Set,V14,multi-colour,Muslin,1149,adult,2026-03-22
+DH-CO--00351,Linen Look Co-ord,Womenswear,Co-ord Set,V30,Dark Maroon,Cotton,1149,adult,2024-12-15
+DH-CO--00352,Lounge Co-ord Set,Womenswear,Co-ord Set,V30,Blue,poly crepe,1299,adult,2026-06-21
+DH-CO--00353,Printed Co-ord Set,Womenswear,Co-ord Set,V01,Mint,Polyester,1199,adult,2025-03-13
+DH-CO--00354,Printed Co-ord Set,Womenswear,Co-ord Set,V35,Midnight Blue,Cotton,1399,adult,2024-10-02
+DH-CO--00355,Lounge Co-ord Set,Womenswear,Co-ord Set,V27,Mint,Polyester,1299,adult,2025-02-02
+DH-CO--00356,Lounge Co-ord Set,Womenswear,Co-ord Set,V12,Charcoal Black,Cambric cotton,1149,adult,2025-08-23
+DH-CO--00357,Printed Co-ord Set,Womenswear,Co-ord Set,V09,Sky Blue,Modal,1349,adult,2026-06-02
+DH-CO--00358,Printed Co-ord Set,Womenswear,Co-ord Set,V34,Black,Twill cotton,1249,adult,2024-12-10
+DH-CO--00359,Lounge Co-ord Set,Womenswear,Co-ord Set,V12,wine red,Modal,1249,adult,2025-11-19
+DH-CO--00360,Printed Co-ord Set,Womenswear,Co-ord Set,V21,BLACK,soft cotton feel,1149,adult,2025-04-12
+DH-FRO-00361,Party Frock,Kidswear,Frock,V03,Navy Blue,soft cotton feel,649,kids,2026-06-09
+DH-FRO-00362,Smocked Frock,Kidswear,Frock,V07,Navy,Rayon,499,kids,2026-04-02
+DH-FRO-00363,Birthday Frock,Kidswear,Frock,V26,Maroon,cotton blend,599,kids,2025-10-25
+DH-FRO-00364,Smocked Frock,Kidswear,Frock,V19,Teal,Linen look,799,kids,2025-03-29
+DH-FRO-00365,Birthday Frock,Kidswear,Frock,V21,Silver Grey,Chanderi (art silk),599,kids,2025-04-01
+DH-FRO-00366,Smocked Frock,Kidswear,Frock,V27,Mustard,Khadi cotton,599,kids,2025-06-05
+DH-FRO-00367,Cotton Frock,Kidswear,Frock,V28,printed multi,Hosiery cotton,649,kids,2026-02-22
+DH-FRO-00368,Tutu Frock,Kidswear,Frock,V34,black,Viscose Rayon,749,kids,2025-06-24
+DH-FRO-00369,Birthday Frock,Kidswear,Frock,V12,BLACK,Cambric cotton,649,kids,2026-02-03
+DH-FRO-00370,Tutu Frock,Kidswear,Frock,V30,Peach Pink,Chanderi (art silk),699,kids,2024-09-30
+DH-FRO-00371,Cotton Frock,Kidswear,Frock,V25,pink,georgette,599,kids,2025-04-07
+DH-FRO-00372,Birthday Frock,Kidswear,Frock,V06,White,rayon,749,kids,2026-02-01
+DH-FRO-00373,Party Frock,Kidswear,Frock,V39,black,Muslin,499,kids,2026-04-11
+DH-FRO-00374,Cotton Frock,Kidswear,Frock,V36,grey melange,100% cotton,649,kids,2025-03-12
+DH-FRO-00375,Tutu Frock,Kidswear,Frock,V13,mustard yellow,cotton lycra,749,kids,2024-11-30
+DH-FRO-00376,Smocked Frock,Kidswear,Frock,V14,grey melange,Twill cotton,899,kids,2025-09-12
+DH-FRO-00377,Cotton Frock,Kidswear,Frock,V25,Olive,rayon,699,kids,2025-11-22
+DH-FRO-00378,Tutu Frock,Kidswear,Frock,V33,Cream,soft cotton feel,649,kids,2025-12-24
+DH-FRO-00379,Birthday Frock,Kidswear,Frock,V21,Off White,100% cotton,499,kids,2025-09-29
+DH-FRO-00380,Tutu Frock,Kidswear,Frock,V36,Olive,cotton blend,699,kids,2026-03-23
+DH-FRO-00381,Birthday Frock,Kidswear,Frock,V22,YLW,Modal,649,kids,2025-03-25
+DH-FRO-00382,Tutu Frock,Kidswear,Frock,V22,printed multi,Khadi cotton,799,kids,2025-04-22
+DH-FRO-00383,Cotton Frock,Kidswear,Frock,V30,Cherry Red,cotton blend,749,kids,2025-01-21
+DH-FRO-00384,Smocked Frock,Kidswear,Frock,V32,Blue,Chanderi (art silk),899,kids,2025-02-06
+DH-FRO-00385,Party Frock,Kidswear,Frock,V05,wine red,cotton blend,499,kids,2026-06-17
+DH-FRO-00386,Party Frock,Kidswear,Frock,V15,multicolour,Chanderi (art silk),749,kids,2024-10-10
+DH-FRO-00387,Smocked Frock,Kidswear,Frock,V24,Tomato Red,Hosiery cotton,699,kids,2024-10-02
+DH-FRO-00388,Tutu Frock,Kidswear,Frock,V02,Red,100% cotton,699,kids,2024-08-08
+DH-FRO-00389,Party Frock,Kidswear,Frock,V18,Royal Blue,mul cotton,949,kids,2026-02-01
+DH-FRO-00390,Party Frock,Kidswear,Frock,V28,Printed,cotton blend,549,kids,2025-02-01
+DH-FRO-00391,Cotton Frock,Kidswear,Frock,V13,Haldi,Muslin,699,kids,2026-04-28
+DH-FRO-00392,Tutu Frock,Kidswear,Frock,V06,blk,Rayon,899,kids,2025-08-19
+DH-FRO-00393,Party Frock,Kidswear,Frock,V20,yellow,poly crepe,749,kids,2024-10-23
+DH-FRO-00394,Party Frock,Kidswear,Frock,V25,Charcoal Black,Cotton Blend (60/40),649,kids,2026-02-18
+DH-FRO-00395,Cotton Frock,Kidswear,Frock,V32,navy blue,,699,kids,2025-10-20
+DH-FRO-00396,Smocked Frock,Kidswear,Frock,V03,Turquoise,rayon,599,kids,2025-03-25
+DH-FRO-00397,Smocked Frock,Kidswear,Frock,V05,Maroon,Cotton Blend (60/40),849,kids,2025-05-16
+DH-FRO-00398,Tutu Frock,Kidswear,Frock,V02,white,Viscose Rayon,699,kids,2025-03-02
+DH-FRO-00399,Tutu Frock,Kidswear,Frock,V37,Peach Pink,rayon slub,699,kids,2025-04-05
+DH-FRO-00400,Cotton Frock,Kidswear,Frock,V09,Black,Pure Cotton,649,kids,2024-10-21
+DH-FRO-00401,Smocked Frock,Kidswear,Frock,V21,blk,poly crepe,599,kids,2024-10-18
+DH-FRO-00402,Tutu Frock,Kidswear,Frock,V02,Ivory,Rayon,599,kids,2026-05-13
+DH-FRO-00403,Smocked Frock,Kidswear,Frock,V36,cream,cotton,649,kids,2025-08-21
+DH-FRO-00404,Party Frock,Kidswear,Frock,V19,grey melange,cotton blend,749,kids,2025-04-11
+DH-FRO-00405,Party Frock,Kidswear,Frock,V10,Black,100% cotton,599,kids,2025-09-04
+DH-FRO-00406,Party Frock,Kidswear,Frock,V29,Bottle Green,cotton,799,kids,2025-08-05
+DH-FRO-00407,Smocked Frock,Kidswear,Frock,V28,Light Pink,Pure Cotton,699,kids,2025-11-04
+DH-FRO-00408,Smocked Frock,Kidswear,Frock,V06,Dark Maroon,Muslin,699,kids,2025-07-30
+DH-FRO-00409,Tutu Frock,Kidswear,Frock,V25,white,Denim,599,kids,2024-08-14
+DH-FRO-00410,Tutu Frock,Kidswear,Frock,V16,Sky Blue,cotton blend,699,kids,2026-03-10
+DH-FRO-00411,Party Frock,Kidswear,Frock,V21,Bottle Green,Georgette,649,kids,2025-05-03
+DH-FRO-00412,Party Frock,Kidswear,Frock,V27,olive green,rayon,649,kids,2025-06-04
+DH-FRO-00413,Tutu Frock,Kidswear,Frock,V32,yellow,cotton blend,699,kids,2026-04-02
+DH-FRO-00414,Smocked Frock,Kidswear,Frock,V01,Mint,Muslin,599,kids,2025-09-11
+DH-FRO-00415,Smocked Frock,Kidswear,Frock,V29,Off White,Viscose Rayon,649,kids,2025-07-10
+DH-FRO-00416,Birthday Frock,Kidswear,Frock,V39,cream,rayon slub,649,kids,2025-02-23
+DH-FRO-00417,Cotton Frock,Kidswear,Frock,V32,Mint,rayon,799,kids,2026-03-14
+DH-FRO-00418,Birthday Frock,Kidswear,Frock,V24,blk,Modal,899,kids,2024-11-26
+DH-FRO-00419,Tutu Frock,Kidswear,Frock,V36,baby pink,georgette,899,kids,2024-08-29
+DH-FRO-00420,Birthday Frock,Kidswear,Frock,V05,Olive,Rayon,749,kids,2025-09-24
+DH-KID-00421,Graphic Tee,Kidswear,Kids T-shirt,V10,mint green,linen blend,599,kids,2025-10-09
+DH-KID-00422,Basic Round Neck Tee,Kidswear,Kids T-shirt,V38,Coral,Modal,549,kids,2025-09-16
+DH-KID-00423,Graphic Tee,Kidswear,Kids T-shirt,V24,maroon,Twill cotton,549,kids,2026-02-02
+DH-KID-00424,Graphic Tee,Kidswear,Kids T-shirt,V23,Lemon,Twill cotton,549,kids,2025-01-19
+DH-KID-00425,Superhero Tee,Kidswear,Kids T-shirt,V28,off-white,Chanderi (art silk),449,kids,2024-11-18
+DH-KID-00426,Graphic Tee,Kidswear,Kids T-shirt,V36,Turquoise,Polyester,599,kids,2026-03-19
+DH-KID-00427,Basic Round Neck Tee,Kidswear,Kids T-shirt,V30,black,Polyester,549,kids,2026-06-28
+DH-KID-00428,Graphic Tee,Kidswear,Kids T-shirt,V31,maroon,mul cotton,499,kids,2024-11-17
+DH-KID-00429,Graphic Tee,Kidswear,Kids T-shirt,V23,Peach Pink,Crepe,499,kids,2025-06-17
+DH-KID-00430,Basic Round Neck Tee,Kidswear,Kids T-shirt,V31,Ivory,rayon slub,549,kids,2024-11-09
+DH-KID-00431,Graphic Tee,Kidswear,Kids T-shirt,V20,Navy,Cambric cotton,599,kids,2024-09-16
+DH-KID-00432,Basic Round Neck Tee,Kidswear,Kids T-shirt,V07,off-white,Chanderi (art silk),599,kids,2026-06-26
+DH-KID-00433,Superhero Tee,Kidswear,Kids T-shirt,V36,Blush,Rayon,499,kids,2025-01-12
+DH-KID-00434,Superhero Tee,Kidswear,Kids T-shirt,V12,Jet Black,100% cotton,549,kids,2025-02-08
+DH-KID-00435,Superhero Tee,Kidswear,Kids T-shirt,V13,Grey,cotton lycra,549,kids,2025-11-05
+DH-KID-00436,Graphic Tee,Kidswear,Kids T-shirt,V14,yellow,Muslin,599,kids,2025-05-14
+DH-KID-00437,Superhero Tee,Kidswear,Kids T-shirt,V12,blue,rayon,499,kids,2025-08-11
+DH-KID-00438,Superhero Tee,Kidswear,Kids T-shirt,V32,Printed,poly crepe,699,kids,2026-01-24
+DH-KID-00439,Superhero Tee,Kidswear,Kids T-shirt,V26,Slate,georgette,499,kids,2026-03-26
+DH-KID-00440,Superhero Tee,Kidswear,Kids T-shirt,V12,Ash,Linen look,599,kids,2026-06-22
+DH-KID-00441,Superhero Tee,Kidswear,Kids T-shirt,V09,navy blue,Cotton Blend (60/40),499,kids,2025-06-18
+DH-KID-00442,Basic Round Neck Tee,Kidswear,Kids T-shirt,V10,Off White,Linen look,549,kids,2026-01-07
+DH-KID-00443,Basic Round Neck Tee,Kidswear,Kids T-shirt,V28,Charcoal Black,Khadi cotton,549,kids,2025-02-08
+DH-KID-00444,Graphic Tee,Kidswear,Kids T-shirt,V36,Baby Pink,rayon slub,549,kids,2025-01-19
+DH-KID-00445,Graphic Tee,Kidswear,Kids T-shirt,V40,Tomato Red,cotton blend,649,kids,2024-09-25
+DH-KID-00446,Superhero Tee,Kidswear,Kids T-shirt,V25,Lemon,Hosiery cotton,549,kids,2026-02-28
+DH-KID-00447,Graphic Tee,Kidswear,Kids T-shirt,V27,Red,Muslin,549,kids,2025-10-30
+DH-KID-00448,Basic Round Neck Tee,Kidswear,Kids T-shirt,V19,Haldi,Cotton Blend (60/40),499,kids,2024-09-04
+DH-KID-00449,Graphic Tee,Kidswear,Kids T-shirt,V37,red,rayon,549,kids,2025-12-22
+DH-KID-00450,Graphic Tee,Kidswear,Kids T-shirt,V24,Turquoise,Modal,599,kids,2026-02-08
+DH-KID-00451,Basic Round Neck Tee,Kidswear,Kids T-shirt,V28,mustard yellow,Viscose Rayon,599,kids,2024-11-14
+DH-KID-00452,Graphic Tee,Kidswear,Kids T-shirt,V29,Burgundy,Cambric cotton,499,kids,2025-04-28
+DH-KID-00453,Basic Round Neck Tee,Kidswear,Kids T-shirt,V16,Dark Blue,Cambric cotton,599,kids,2025-03-04
+DH-KID-00454,Graphic Tee,Kidswear,Kids T-shirt,V28,Slate,soft cotton feel,549,kids,2025-01-18
+DH-KID-00455,Basic Round Neck Tee,Kidswear,Kids T-shirt,V37,burgandy,Cotton Blend (60/40),549,kids,2025-07-27
+DH-KID-00456,Basic Round Neck Tee,Kidswear,Kids T-shirt,V19,white,cotton blend,549,kids,2025-05-25
+DH-KID-00457,Graphic Tee,Kidswear,Kids T-shirt,V04,Charcoal Black,Cambric cotton,649,kids,2025-05-12
+DH-KID-00458,Graphic Tee,Kidswear,Kids T-shirt,V16,Light Pink,Crepe,599,kids,2024-12-29
+DH-KID-00459,Superhero Tee,Kidswear,Kids T-shirt,V37,Light Pink,georgette,499,kids,2026-05-11
+DH-KID-00460,Superhero Tee,Kidswear,Kids T-shirt,V06,Dark Blue,georgette,549,kids,2025-09-18
+DH-KID-00461,Basic Round Neck Tee,Kidswear,Kids T-shirt,V21,red,Denim,449,kids,2026-03-20
+DH-KID-00462,Superhero Tee,Kidswear,Kids T-shirt,V23,Brick Red,Georgette,599,kids,2024-10-05
+DH-SCH-00463,School Shirt Full Sleeve,Kidswear,School Shirt,V32,haldi yellow,Modal,499,kids,2025-05-03
+DH-SCH-00464,School Shirt Full Sleeve,Kidswear,School Shirt,V09,Silver Grey,Twill cotton,649,kids,2026-03-04
+DH-SCH-00465,School Shirt Full Sleeve,Kidswear,School Shirt,V03,Maroon,Pure Cotton,549,kids,2024-11-11
+DH-SCH-00466,School Shirt Full Sleeve,Kidswear,School Shirt,V29,baby pink,cotton lycra,449,kids,2025-11-12
+DH-SCH-00467,School Shirt Full Sleeve,Kidswear,School Shirt,V21,pink,Khadi cotton,649,kids,2025-01-11
+DH-SCH-00468,School Shirt Half Sleeve,Kidswear,School Shirt,V17,White,poly crepe,549,kids,2024-10-25
+DH-SCH-00469,School Shirt Half Sleeve,Kidswear,School Shirt,V20,printed multi,Pure Cotton,549,kids,2025-03-29
+DH-SCH-00470,School Shirt Half Sleeve,Kidswear,School Shirt,V14,burgandy,Hosiery cotton,449,kids,2025-12-03
+DH-SCH-00471,School Shirt Half Sleeve,Kidswear,School Shirt,V01,Coral,cotton lycra,599,kids,2024-08-10
+DH-SCH-00472,School Shirt Half Sleeve,Kidswear,School Shirt,V31,pink,Pure Cotton,499,kids,2024-10-13
+DH-SCH-00473,School Shirt Half Sleeve,Kidswear,School Shirt,V24,Off White,cotton,499,kids,2025-06-04
+DH-SCH-00474,School Shirt Half Sleeve,Kidswear,School Shirt,V37,Turquoise,Polyester,549,kids,2024-08-10
+DH-SCH-00475,School Shirt Full Sleeve,Kidswear,School Shirt,V10,mustard yellow,cotton,549,kids,2025-09-27
+DH-SCH-00476,School Shirt Full Sleeve,Kidswear,School Shirt,V09,Dark Blue,Georgette,549,kids,2024-12-06
+DH-SCH-00477,School Shirt Half Sleeve,Kidswear,School Shirt,V09,off-white,Modal,499,kids,2025-04-12
+DH-SCH-00478,School Shirt Half Sleeve,Kidswear,School Shirt,V39,Slate,Cambric cotton,499,kids,2026-04-16
+DH-SCH-00479,School Shirt Half Sleeve,Kidswear,School Shirt,V20,printed multi,poly crepe,549,kids,2025-02-28
+DH-SCH-00480,School Shirt Half Sleeve,Kidswear,School Shirt,V04,bottle grn,Crepe,549,kids,2025-04-04
+DH-SCH-00481,School Shirt Half Sleeve,Kidswear,School Shirt,V39,Multi Color,rayon slub,549,kids,2024-10-13
+DH-SCH-00482,School Shirt Half Sleeve,Kidswear,School Shirt,V25,Blush,Twill cotton,549,kids,2026-03-07
+DH-SCH-00483,School Shirt Full Sleeve,Kidswear,School Shirt,V02,Navy Blue,Cotton,449,kids,2026-03-26
+DH-SCH-00484,School Shirt Full Sleeve,Kidswear,School Shirt,V26,wine red,cotton lycra,499,kids,2026-01-02
+DH-SCH-00485,School Shirt Half Sleeve,Kidswear,School Shirt,V06,BLACK,cotton,549,kids,2026-05-19
+DH-SCH-00486,School Shirt Half Sleeve,Kidswear,School Shirt,V06,Mehendi Green,rayon slub,649,kids,2026-01-07
+DH-SCH-00487,School Shirt Half Sleeve,Kidswear,School Shirt,V38,BLACK,cotton lycra,599,kids,2026-05-13
+DH-SCH-00488,School Shirt Full Sleeve,Kidswear,School Shirt,V16,Black,georgette,499,kids,2024-09-30
+DH-SCH-00489,School Shirt Half Sleeve,Kidswear,School Shirt,V39,Grey,100% cotton,499,kids,2024-09-27
+DH-SCH-00490,School Shirt Full Sleeve,Kidswear,School Shirt,V01,Peach Pink,Chanderi (art silk),549,kids,2025-01-16
+DH-SCH-00491,School Shirt Full Sleeve,Kidswear,School Shirt,V11,green,Twill cotton,499,kids,2025-08-17
+DH-SCH-00492,School Shirt Half Sleeve,Kidswear,School Shirt,V22,mrn,cotton lycra,499,kids,2025-10-15
+DH-SCH-00493,School Shirt Full Sleeve,Kidswear,School Shirt,V05,Grey,Crepe,549,kids,2025-12-23
+DH-SCH-00494,School Shirt Half Sleeve,Kidswear,School Shirt,V11,Ash,Hosiery cotton,499,kids,2025-08-13
+DH-SCH-00495,School Shirt Half Sleeve,Kidswear,School Shirt,V15,Navy Blue,Cotton,449,kids,2026-01-05
+DH-SCH-00496,School Shirt Half Sleeve,Kidswear,School Shirt,V24,Red,Modal,649,kids,2025-08-29
+DH-SCH-00497,School Shirt Full Sleeve,Kidswear,School Shirt,V27,printed multi,rayon slub,499,kids,2025-03-19
+DH-SCH-00498,School Shirt Half Sleeve,Kidswear,School Shirt,V05,Bottle Green,Rayon,549,kids,2026-03-10
+DH-KID-00499,Denim Shorts,Kidswear,Kids Shorts,V03,Powder Blue,Twill cotton,449,kids,2025-09-16
+DH-KID-00500,Cotton Shorts,Kidswear,Kids Shorts,V21,olive green,soft cotton feel,499,kids,2024-10-29
+DH-KID-00501,Cotton Shorts,Kidswear,Kids Shorts,V37,mint green,Polyester,549,kids,2025-06-09
+DH-KID-00502,Jogger Shorts,Kidswear,Kids Shorts,V32,Slate,Muslin,549,kids,2025-02-18
+DH-KID-00503,Cotton Shorts,Kidswear,Kids Shorts,V10,mustard yellow,Modal,599,kids,2024-08-08
+DH-KID-00504,Jogger Shorts,Kidswear,Kids Shorts,V01,cream,Cambric cotton,449,kids,2025-07-11
+DH-KID-00505,Cotton Shorts,Kidswear,Kids Shorts,V07,Mint,Crepe,499,kids,2025-02-28
+DH-KID-00506,Cotton Shorts,Kidswear,Kids Shorts,V10,burgandy,Georgette,449,kids,2025-05-15
+DH-KID-00507,Jogger Shorts,Kidswear,Kids Shorts,V30,Off White,Khadi cotton,499,kids,2024-10-27
+DH-KID-00508,Denim Shorts,Kidswear,Kids Shorts,V05,Charcoal Black,cotton blend,499,kids,2026-03-31
+DH-KID-00509,Denim Shorts,Kidswear,Kids Shorts,V19,haldi yellow,rayon slub,549,kids,2025-04-26
+DH-KID-00510,Cotton Shorts,Kidswear,Kids Shorts,V18,Cherry Red,Twill cotton,449,kids,2025-03-29
+DH-KID-00511,Denim Shorts,Kidswear,Kids Shorts,V07,Grey Melange,rayon slub,449,kids,2025-01-08
+DH-KID-00512,Cotton Shorts,Kidswear,Kids Shorts,V08,Jet Black,Viscose Rayon,499,kids,2026-02-01
+DH-KID-00513,Jogger Shorts,Kidswear,Kids Shorts,V17,Rust,mul cotton,449,kids,2024-12-02
+DH-KID-00514,Denim Shorts,Kidswear,Kids Shorts,V03,Gray,cotton,549,kids,2025-03-10
+DH-KID-00515,Jogger Shorts,Kidswear,Kids Shorts,V23,Haldi,rayon,499,kids,2025-09-11
+DH-KID-00516,Jogger Shorts,Kidswear,Kids Shorts,V02,Peach Pink,Rayon,549,kids,2025-09-20
+DH-KID-00517,Cotton Shorts,Kidswear,Kids Shorts,V30,navy blue,100% cotton,549,kids,2024-11-14
+DH-KID-00518,Denim Shorts,Kidswear,Kids Shorts,V15,Wine,Hosiery cotton,449,kids,2024-12-13
+DH-KID-00519,Cotton Shorts,Kidswear,Kids Shorts,V21,Multi,cotton,499,kids,2026-03-21
+DH-KID-00520,Denim Shorts,Kidswear,Kids Shorts,V29,yellow,Cotton,449,kids,2024-12-11
+DH-KID-00521,Denim Shorts,Kidswear,Kids Shorts,V04,Coral,Crepe,599,kids,2025-01-21
+DH-KID-00522,Cotton Shorts,Kidswear,Kids Shorts,V25,MAROON,rayon,449,kids,2025-10-12
+DH-KID-00523,Dhoti Kurta Set,Kidswear,Kids Ethnic Set,V29,Sea Green,Rayon,799,kids,2025-01-01
+DH-KID-00524,Dhoti Kurta Set,Kidswear,Kids Ethnic Set,V19,multi-colour,Cotton,949,kids,2025-12-25
+DH-KID-00525,Kurta Pyjama Set,Kidswear,Kids Ethnic Set,V18,Ink Blue,Rayon,849,kids,2025-08-29
+DH-KID-00526,Dhoti Kurta Set,Kidswear,Kids Ethnic Set,V35,Multi Color,Crepe,1249,kids,2024-08-21
+DH-KID-00527,Dhoti Kurta Set,Kidswear,Kids Ethnic Set,V32,Teal,poly crepe,1199,kids,2025-07-20
+DH-KID-00528,Kurta Pyjama Set,Kidswear,Kids Ethnic Set,V12,Green,,899,kids,2024-08-28
+DH-KID-00529,Dhoti Kurta Set,Kidswear,Kids Ethnic Set,V04,bottle grn,Cotton Blend (60/40),999,kids,2025-11-28
+DH-KID-00530,Dhoti Kurta Set,Kidswear,Kids Ethnic Set,V16,Navy,Twill cotton,899,kids,2026-06-05
+DH-KID-00531,Kurta Pyjama Set,Kidswear,Kids Ethnic Set,V37,Mustard,Rayon,899,kids,2025-09-03
+DH-KID-00532,Kurta Pyjama Set,Kidswear,Kids Ethnic Set,V21,Silver Grey,cotton lycra,1199,kids,2025-08-04
+DH-KID-00533,Kurta Pyjama Set,Kidswear,Kids Ethnic Set,V37,Ivory,Modal,849,kids,2026-03-02
+DH-KID-00534,Kurta Pyjama Set,Kidswear,Kids Ethnic Set,V12,bottle grn,linen blend,799,kids,2025-12-17
+DH-KID-00535,Lehenga Choli,Kidswear,Kids Ethnic Set,V02,mustard yellow,Muslin,949,kids,2026-01-23
+DH-KID-00536,Lehenga Choli,Kidswear,Kids Ethnic Set,V22,Pink,100% cotton,1199,kids,2025-01-30
+DH-KID-00537,Dhoti Kurta Set,Kidswear,Kids Ethnic Set,V38,rani,cotton,1099,kids,2024-12-25
+DH-KID-00538,Lehenga Choli,Kidswear,Kids Ethnic Set,V26,Cream,cotton blend,849,kids,2026-03-25
+DH-KID-00539,Dhoti Kurta Set,Kidswear,Kids Ethnic Set,V28,rani,Cotton Blend (60/40),1199,kids,2026-05-18
+DH-KID-00540,Dhoti Kurta Set,Kidswear,Kids Ethnic Set,V40,Sky Blue,poly crepe,899,kids,2025-08-02
+DH-MEN-00541,Round Neck Tee,Menswear,Men's T-shirt,V19,Sea Green,poly crepe,499,adult,2024-12-10
+DH-MEN-00542,Oversized Tee,Menswear,Men's T-shirt,V03,Gray,Khadi cotton,599,adult,2025-02-04
+DH-MEN-00543,Oversized Tee,Menswear,Men's T-shirt,V07,Grey,Rayon,499,adult,2025-12-23
+DH-MEN-00544,Round Neck Tee,Menswear,Men's T-shirt,V21,Cream,georgette,599,adult,2025-01-20
+DH-MEN-00545,Round Neck Tee,Menswear,Men's T-shirt,V17,Wine,rayon,549,adult,2025-03-04
+DH-MEN-00546,Oversized Tee,Menswear,Men's T-shirt,V01,dk blue,Cotton Blend (60/40),549,adult,2024-09-20
+DH-MEN-00547,Polo T-shirt,Menswear,Men's T-shirt,V32,Black,mul cotton,549,adult,2025-08-24
+DH-MEN-00548,Round Neck Tee,Menswear,Men's T-shirt,V37,Cherry Red,georgette,649,adult,2026-05-30
+DH-MEN-00549,Polo T-shirt,Menswear,Men's T-shirt,V03,navy blue,cotton,449,adult,2025-05-30
+DH-MEN-00550,Round Neck Tee,Menswear,Men's T-shirt,V11,WHT,,499,adult,2025-08-21
+DH-MEN-00551,Polo T-shirt,Menswear,Men's T-shirt,V22,Navy,Georgette,799,adult,2026-04-02
+DH-MEN-00552,Round Neck Tee,Menswear,Men's T-shirt,V11,Multi,Pure Cotton,699,adult,2026-04-15
+DH-MEN-00553,Oversized Tee,Menswear,Men's T-shirt,V14,WHT,rayon,549,adult,2025-02-12
+DH-MEN-00554,Round Neck Tee,Menswear,Men's T-shirt,V19,multi-colour,Linen look,549,adult,2025-06-02
+DH-MEN-00555,Round Neck Tee,Menswear,Men's T-shirt,V32,teal blue,cotton,499,adult,2025-01-06
+DH-MEN-00556,Round Neck Tee,Menswear,Men's T-shirt,V39,bottle grn,Cotton Blend (60/40),499,adult,2025-12-06
+DH-MEN-00557,Round Neck Tee,Menswear,Men's T-shirt,V19,Multi Color,Muslin,599,adult,2024-10-24
+DH-MEN-00558,Polo T-shirt,Menswear,Men's T-shirt,V21,Black,Khadi cotton,699,adult,2025-12-15
+DH-MEN-00559,Polo T-shirt,Menswear,Men's T-shirt,V25,Teal,Cotton Blend (60/40),549,adult,2025-02-07
+DH-MEN-00560,Polo T-shirt,Menswear,Men's T-shirt,V03,Brick Red,mul cotton,549,adult,2025-04-28
+DH-MEN-00561,Oversized Tee,Menswear,Men's T-shirt,V37,green,cotton,499,adult,2024-10-04
+DH-MEN-00562,Oversized Tee,Menswear,Men's T-shirt,V23,multicolour,Modal,549,adult,2026-02-07
+DH-MEN-00563,Oversized Tee,Menswear,Men's T-shirt,V25,Burgundy,Linen look,549,adult,2026-01-19
+DH-MEN-00564,Oversized Tee,Menswear,Men's T-shirt,V31,Yellow,Chanderi (art silk),499,adult,2025-06-04
+DH-MEN-00565,Oversized Tee,Menswear,Men's T-shirt,V34,Gray,Pure Cotton,649,adult,2026-03-10
+DH-MEN-00566,Round Neck Tee,Menswear,Men's T-shirt,V12,Cherry Red,Cotton,749,adult,2025-01-20
+DH-MEN-00567,Oversized Tee,Menswear,Men's T-shirt,V06,black,mul cotton,499,adult,2025-10-21
+DH-MEN-00568,Round Neck Tee,Menswear,Men's T-shirt,V17,Grey,poly crepe,699,adult,2025-06-25
+DH-MEN-00569,Polo T-shirt,Menswear,Men's T-shirt,V21,Royal Blue,georgette,549,adult,2026-02-18
+DH-MEN-00570,Polo T-shirt,Menswear,Men's T-shirt,V40,maroon,Georgette,599,adult,2026-03-26
+DH-MEN-00571,Casual Check Shirt,Menswear,Men's Shirt,V10,pink,Linen look,899,adult,2026-03-05
+DH-MEN-00572,Linen Look Shirt,Menswear,Men's Shirt,V19,nvy,poly crepe,1049,adult,2026-02-01
+DH-MEN-00573,Casual Check Shirt,Menswear,Men's Shirt,V32,multicolour,rayon,899,adult,2026-03-10
+DH-MEN-00574,Printed Shirt,Menswear,Men's Shirt,V10,Jet Black,Cotton,899,adult,2026-04-27
+DH-MEN-00575,Linen Look Shirt,Menswear,Men's Shirt,V22,BLACK,,699,adult,2025-04-02
+DH-MEN-00576,Linen Look Shirt,Menswear,Men's Shirt,V02,OffWhite,rayon,999,adult,2025-07-13
+DH-MEN-00577,Printed Shirt,Menswear,Men's Shirt,V07,Tomato Red,Twill cotton,749,adult,2025-03-23
+DH-MEN-00578,Casual Check Shirt,Menswear,Men's Shirt,V18,off-white,georgette,899,adult,2025-10-02
+DH-MEN-00579,Linen Look Shirt,Menswear,Men's Shirt,V27,Yellow,Chanderi (art silk),999,adult,2025-12-11
+DH-MEN-00580,Linen Look Shirt,Menswear,Men's Shirt,V05,Baby Pink,Twill cotton,949,adult,2025-06-16
+DH-MEN-00581,Casual Check Shirt,Menswear,Men's Shirt,V37,Blue,Rayon,749,adult,2024-08-31
+DH-MEN-00582,Printed Shirt,Menswear,Men's Shirt,V30,Maroon Red,rayon,1099,adult,2024-09-22
+DH-MEN-00583,Casual Check Shirt,Menswear,Men's Shirt,V21,White,Rayon,849,adult,2026-01-01
+DH-MEN-00584,Linen Look Shirt,Menswear,Men's Shirt,V32,WHT,Polyester,849,adult,2026-04-02
+DH-MEN-00585,Printed Shirt,Menswear,Men's Shirt,V11,white,Viscose Rayon,949,adult,2025-04-23
+DH-MEN-00586,Printed Shirt,Menswear,Men's Shirt,V25,Maroon Red,Cambric cotton,749,adult,2024-09-21
+DH-MEN-00587,Printed Shirt,Menswear,Men's Shirt,V15,Lemon,Chanderi (art silk),749,adult,2026-06-26
+DH-MEN-00588,Printed Shirt,Menswear,Men's Shirt,V01,MAROON,linen blend,1049,adult,2025-11-30
+DH-TRA-00589,Cotton Track Pants,Menswear,Track Pants,V15,mrn,Georgette,699,adult,2025-04-17
+DH-TRA-00590,Cotton Track Pants,Menswear,Track Pants,V23,BLACK,Hosiery cotton,649,adult,2025-11-15
+DH-TRA-00591,Jogger Track Pants,Menswear,Track Pants,V40,Royal Blue,Hosiery cotton,699,adult,2025-09-12
+DH-TRA-00592,Cotton Track Pants,Menswear,Track Pants,V36,OffWhite,Hosiery cotton,699,adult,2026-05-26
+DH-TRA-00593,Cotton Track Pants,Menswear,Track Pants,V31,Dark Blue,Cambric cotton,649,adult,2024-10-06
+DH-TRA-00594,Cotton Track Pants,Menswear,Track Pants,V17,bottle grn,cotton blend,749,adult,2026-06-04
+DH-TRA-00595,Cotton Track Pants,Menswear,Track Pants,V16,Teal,Hosiery cotton,799,adult,2024-09-29
+DH-TRA-00596,Cotton Track Pants,Menswear,Track Pants,V02,Rani Pink,Georgette,699,adult,2026-06-04
+DH-TRA-00597,Jogger Track Pants,Menswear,Track Pants,V25,BLACK,Denim,699,adult,2024-09-07
+DH-TRA-00598,Cotton Track Pants,Menswear,Track Pants,V35,Ochre,Viscose Rayon,749,adult,2026-05-17
+DH-TRA-00599,Cotton Track Pants,Menswear,Track Pants,V36,Baby Pink,Denim,649,adult,2025-02-03
+DH-TRA-00600,Cotton Track Pants,Menswear,Track Pants,V36,green,Rayon,849,adult,2025-02-05

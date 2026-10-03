@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dhaga Returns</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Dhaga &amp; Co. · Category team · prepared by the FDE team</div>
+    <h1>Why products come back</h1>
+    <span class="sub" id="window-label">Loading…</span>
+  </header>
+
+  <div class="sample-banner" id="sample-banner" hidden>
+    <span aria-hidden="true">⚠️</span>
+    <div><strong id="banner-title"></strong> <span id="sample-note"></span></div>
+  </div>
+
+  <div id="page-error" hidden></div>
+
+  <main id="content">
+  <!-- 0. The answer first: what Neha should fix -->
+  <section class="card fix-first" aria-labelledby="h-fix">
+    <h2 id="h-fix">What to fix first</h2>
+    <p class="q">For Neha: the vendors and products where one reason stands far above normal. Each one links to the customers' own words.</p>
+    <ol class="fix-list" id="fix-list"><li class="loading">Loading…</li></ol>
+  </section>
+
+  <!-- 0b. The same problem in Dhaga's own numbers -->
+  <section class="card" aria-labelledby="h-scale">
+    <h2 id="h-scale">At Dhaga's scale</h2>
+    <p class="q">The sample below is scaled down. This is the problem in the numbers Dhaga gave us, with the arithmetic shown.</p>
+    <div class="scale" id="scale"></div>
+    <p class="legend-tags"><span class="src brief">Brief</span> number the client gave us
+      <span class="src calc">Calc</span> arithmetic on brief numbers
+      <span class="src est">Estimate</span> sample rate applied to brief volume
+      <span class="src sample">Sample</span> measured on the synthetic sample</p>
+  </section>
+
+  <!-- 1. Headline numbers + return drivers -->
+  <section aria-labelledby="h-headline">
+    <h2 class="sr-only" id="h-headline">Headline numbers</h2>
+    <div class="tiles" id="tiles"><div class="loading">Loading…</div></div>
+  </section>
+
+  <section class="card" aria-labelledby="h-drivers">
+    <div class="card-head">
+      <div>
+        <h2 id="h-drivers">Return drivers</h2>
+        <p class="q">What is causing the most returns? Click a reason to see its trend.</p>
+      </div>
+    </div>
+    <div class="chart" id="drivers-chart"><div class="loading">Loading…</div></div>
+  </section>
+
+  <!-- 2. Problem spots -->
+  <section class="card" aria-labelledby="h-hotspots">
+    <h2 id="h-hotspots">Problem spots</h2>
+    <p class="q">Which vendor, product type and size stand out? Click a row to read the comments behind it.</p>
+    <div id="hotspots"><div class="loading">Loading…</div></div>
+  </section>
+
+  <div class="grid two">
+    <!-- 3. Locations -->
+    <section class="card" aria-labelledby="h-locations">
+      <h2 id="h-locations">Locations</h2>
+      <p class="q">Which city has which problem, compared with everywhere else?</p>
+      <div id="locations"><div class="loading">Loading…</div></div>
+    </section>
+
+    <!-- 4. Trend -->
+    <section class="card" aria-labelledby="h-trend">
+      <div class="card-head">
+        <div>
+          <h2 id="h-trend">Trend</h2>
+          <p class="q">Is it getting better? Returns per month, this year against last year.</p>
+        </div>
+        <label>
+          <span class="sr-only">Reason</span>
+          <select class="control" id="trend-issue"></select>
+        </label>
+      </div>
+      <div class="legend" id="trend-legend"></div>
+      <div class="chart" id="trend-chart"><div class="loading">Loading…</div></div>
+    </section>
+  </div>
+
+  <!-- What the FDE team still needs from Dhaga -->
+  <section class="card" aria-labelledby="h-open">
+    <h2 id="h-open">What we still need from Dhaga</h2>
+    <p class="q">We didn't guess these. Each one changes what the page above can promise.</p>
+    <ul class="open-q" id="open-q"></ul>
+  </section>
+  </main>
+
+  <footer id="footer"></footer>
+</div>
+
+<!-- Comments drawer -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" hidden>
+  <div class="drawer-head">
+    <button class="drawer-close" id="drawer-close" aria-label="Close">×</button>
+    <h2 id="drawer-title"></h2>
+    <div class="sub" id="drawer-sub"></div>
+    <div class="filters" id="drawer-filters" role="group" aria-label="Filter comments"></div>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+  <div class="drawer-foot" id="drawer-foot"></div>
+</aside>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

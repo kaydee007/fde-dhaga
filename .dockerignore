@@ -1,0 +1,14 @@
+.venv
+.git
+.github
+var
+tests
+__pycache__
+*.pyc
+.pytest_cache
+.env
+.DS_Store
+sql
+csv/customers.csv
+csv/reviews.csv
+csv/eval_return_labels.csv

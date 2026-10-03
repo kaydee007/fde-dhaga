@@ -1,0 +1,4 @@
+# Runtime
+fastapi==0.142.2
+uvicorn==0.54.0
+psycopg[binary]==3.3.6   # only used when DATABASE_URL is set

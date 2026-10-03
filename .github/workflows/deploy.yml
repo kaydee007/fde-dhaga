@@ -1,0 +1,63 @@
+# Deploys main to the Hugging Face Space, then waits until /health answers.
+# Needs: secret HF_TOKEN (write access to the Space)
+#        variable HF_SPACE      e.g. dhaga-fde/return-pulse
+#        variable HF_SPACE_URL  e.g. https://dhaga-fde-return-pulse.hf.space  (copy it from the Space page)
+name: deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Commit, branch or tag to deploy (e.g. demo-ready)"
+        default: main
+
+concurrency: deploy
+
+jobs:
+  test:
+    uses: ./.github/workflows/ci.yml
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+      - name: Assemble the Space
+        run: |
+          set -euo pipefail
+          SHA=$(git rev-parse --short HEAD)
+          mkdir -p /tmp/space
+          # Only what the app needs. The answer sheet and unused tables stay out of the public Space.
+          rsync -a ./ /tmp/space/ \
+            --exclude .git --exclude .github --exclude tests --exclude sql --exclude var \
+            --exclude csv/eval_return_labels.csv --exclude csv/customers.csv --exclude csv/reviews.csv
+          cat deploy/space_header.md README.md > /tmp/space/README.md
+          echo "$SHA" > /tmp/space/build_sha.txt
+          echo "SHA=$SHA" >> "$GITHUB_ENV"
+      - name: Push to the Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_SPACE: ${{ vars.HF_SPACE }}
+        run: |
+          set -euo pipefail
+          cd /tmp/space
+          git init -q -b main
+          git config user.email "deploy@github-actions"
+          git config user.name "deploy"
+          git add -A
+          git commit -qm "Deploy $SHA"
+          git push --force "https://user:${HF_TOKEN}@huggingface.co/spaces/${HF_SPACE}" main
+      - name: Wait for /health to report this commit
+        env:
+          HF_SPACE_URL: ${{ vars.HF_SPACE_URL }}
+        run: |
+          for i in $(seq 1 60); do
+            body=$(curl -fsS "$HF_SPACE_URL/health" || true)
+            if echo "$body" | grep -q "\"build\":\"$SHA\""; then echo "Live: $body"; exit 0; fi
+            sleep 10
+          done
+          echo "The Space did not come up with $SHA within 10 minutes. Last answer: $body"
+          exit 1
